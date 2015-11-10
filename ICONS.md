@@ -1,0 +1,520 @@
+Themed icons
+--
+
+ - 1Password
+ - 2048
+ - 5s Gif
+ - 7-Eleven App
+ - 8 Ball Pool
+ - 9GAG
+ - ABC Watch
+ - Accuweather
+ - Activator
+ - Adobe Acrobat
+ - ADP Mobile
+ - AliExpress
+ - Allegro
+ - Ally
+ - Amazon
+ - Amazon DE
+ - Amazon FR
+ - Amazon UK
+ - Amazon Instant Video
+ - Amazon Local
+ - AMEX
+ - amrc client for reddit
+ - AppInfo
+ - Ask.fm
+ - Audible Audiobooks
+ - Authy
+ - Aviary Photo Editor
+ - Apple Airport Utility
+ - Apple App Store
+ - Apple Assistant
+ - Apple Calculator
+ - Apple Calendar (Settings)
+ - Apple Calendar (Icon)
+ - Apple Camera
+ - Apple Camera Roll
+ - Apple Clock
+ - Apple Clock Alt
+ - Apple Compass
+ - Apple Contacts
+ - Apple Facetime
+ - Apple Find My Friends
+ - Apple Find My iPhone
+ - Apple Find My iPhone
+ - Apple Game Center
+ - Apple Garage Band
+ - Apple Health
+ - Apple iBooks
+ - Apple iCloud Drive
+ - Apple iMovie
+ - Apple iTunes Store
+ - Apple iTunes University
+ - Apple Keynote
+ - Apple Mail
+ - Apple Maps
+ - Apple Music
+ - Apple Notes
+ - Apple Numbers
+ - Apple Pages
+ - Apple Passbook
+ - Apple Phone
+ - Apple Podcasts
+ - Apple Preferences
+ - Apple Reminders
+ - Apple Remote
+ - Apple Safari
+ - Apple SMS
+ - Apple SMS Alt
+ - Apple Stocks
+ - Apple Store
+ - Apple TestFlight
+ - Apple Tips
+ - Apple Trailers
+ - Apple Videos
+ - Apple Voice Memos
+ - Apple Watch
+ - Apple Weather
+ - Badoo
+ - Bandsintown
+ - Bank of America
+ - BarMagnet
+ - Battery Doctor
+ - BatteryLife
+ - BBC News US
+ - Beats
+ - Bethpage Mobile Banking
+ - BikeRaceTFG
+ - Bing Search
+ - Bitmoji
+ - Bleacher Report
+ - Boom Beach
+ - Box
+ - Buffer
+ - BuzzFeed
+ - Bytafont 2
+ - Calenmob
+ - Canvas
+ - Capital One
+ - Cartoon Saga
+ - CBS Sports
+ - Chase
+ - Cheatsheet
+ - Check the Weather
+ - Chicago Blackhawks App
+ - Cisco AnyConnect
+ - Citi
+ - Clash of Clans
+ - Clear
+ - Clima
+ - CloudApp
+ - CloudMagic Email
+ - Coastal
+ - CocoaTop
+ - Comedy Central
+ - Comedy Central Stand-Up
+ - CommBank
+ - Convertbot
+ - CrashReporter
+ - Credit Karma
+ - Crunchyroll
+ - Curb
+ - CVS
+ - Cydia
+ - Cydia Impactor
+ - Darkroom
+ - Dashlane
+ - DatPiff
+ - Day One
+ - Deezer
+ - Delivered
+ - Deliveries
+ - Dictionary.com
+ - Dictionary.com Premium
+ - Discover Mobile
+ - Discovery Channel
+ - Does not Commute
+ - DNB
+ - Documents 5
+ - Dropbox
+ - Dropbox Carousel
+ - Dubsmash
+ - Duolingo
+ - Ebay
+ - Ebay iPad
+ - Echofon
+ - Emoji++
+ - Endomondo
+ - Epocrates
+ - ESPN Fantasy Football
+ - ESPN ScoreCenter
+ - ESPN Watch
+ - Etsy
+ - Eventbrite
+ - Evernote iPhone
+ - Evernote Scannable
+ - Evernote Skitch
+ - f.lux
+ - Fab
+ - Facebook
+ - Facebook Groups
+ - Facebook Messenger
+ - Facebook Paper
+ - FaceTune
+ - Fandango
+ - FanDuel
+ - Fantastical
+ - FCC
+ - Feedly
+ - Fifa 15
+ - Fifa 16
+ - Final Fantasy Tactics
+ - Fing
+ - First State Bank
+ - Fitbit
+ - Five Guys
+ - Fiverr Faces
+ - Flappy Bird
+ - Flex
+ - Flickr
+ - Fling
+ - Flipagram
+ - Flipboard
+ - Flixster
+ - FontBook
+ - Forza Football - Soccer Live Scores
+ - Four Four Two Stats Zone
+ - Fox Now
+ - Foxtel Go
+ - Foxtel Guide
+ - Frontpoint
+ - Funny or Die
+ - Funny or Die News Flash
+ - Fyu.se
+ - Gamestop
+ - GasBuddy
+ - Gate Guru
+ - GEICO Mobile
+ - Genius Scan - PDF Scanner
+ - GG
+ - Giphy for Messenger
+ - Glide
+ - GroupMe
+ - Groupon
+ - Guitar Pro
+ - Guitar Tuna
+ - GV Mobile+ 3
+ - Google Analytics
+ - Google Authenticator
+ - Google Calendar
+ - Google Chrome
+ - Google Chromecast
+ - Google Docs
+ - Google Drive
+ - Google Earth
+ - Google Gmail
+ - Google Hangouts
+ - Google Inbox
+ - Google Ingress
+ - Google Local
+ - Google Maps
+ - Google Mobile
+ - Google News
+ - Google Photos
+ - Google Play Movies
+ - Google Plus
+ - Google Sheets
+ - Google Slides
+ - Google Snapseed
+ - Google Translate
+ - Google Wallet
+ - Google Youtube
+ - Google Youtube Creator Studio
+ - Hanging With Friends Paid
+ - HBO Go
+ - HBO Now
+ - Hearthstone
+ - HeyHey
+ - Holy Bible
+ - HopStop
+ - Hot Or Not
+ - Hulu
+ - Human
+ - Huntington
+ - Hyperlapse
+ - iAlien
+ - Ibotta
+ - iCleaner
+ - iCleaner iPhone 6 Plus
+ - IF
+ - iFile
+ - iFunny
+ - iHeartRadio
+ - IKO
+ - iLEX R.A.T.
+ - IMDB
+ - Imgur
+ - Imgur Browsr
+ - imo
+ - Inbox Messenger
+ - Indeed Jobs
+ - Instacast
+ - InstaCollage Free
+ - Instagram
+ - InstaSize
+ - iTube
+ - Journalized
+ - JW Library
+ - KakaoTalk
+ - Keeper
+ - kik
+ - Kindle
+ - Kodi
+ - LastPass
+ - Launch Center Pro
+ - LINE
+ - LinkedIn
+ - Listonic
+ - LogMeIn
+ - LoseIt
+ - Lyft
+ - Mailbox
+ - Make It Big
+ - Manga Rock
+ - Mashable
+ - Match.com
+ - Maybank
+ - Memoir
+ - Mextures
+ - Midori
+ - Mint
+ - Mint Bills
+ - MLB at Bat
+ - Mobile Terminal
+ - Moby Dick, House of Kabob
+ - Mortal Kombat
+ - Moves
+ - Musicbox
+ - My Mazda
+ - MyAT&T
+ - MyFitnessPal
+ - MyMaxis
+ - MyPantone
+ - MyScript Calculator
+ - Microsoft Excel
+ - Microsoft Lync 2010
+ - Microsoft OneDrive
+ - Microsoft OneNote
+ - Microsoft Outlook
+ - Microsoft OWA
+ - Microsoft Powerpoint
+ - Microsoft Smartglass
+ - Microsoft Word
+ - N_eye
+ - Navigon
+ - Navy Federal Credit Union
+ - NBA
+ - Nest
+ - Netflix
+ - Network Utility for iOS
+ - New Words With Friends
+ - Nexus Student Ministry
+ - NFL Fantasy Football
+ - NFL Mobile
+ - NHL
+ - Nike+
+ - Notability
+ - OkCupid
+ - Ookla Speedtest
+ - ooVoo
+ - Open Table
+ - OpenVPN Connect
+ - Opera Mini
+ - Outbank
+ - Over
+ - Overcast
+ - Pacemaker
+ - Palringo
+ - Pandora
+ - Pangu
+ - Papa Johns
+ - Parcel
+ - Pastebin
+ - Paypal
+ - Pebble Smartwatch
+ - Pebble Time Watch
+ - Period Tracker (Sevenlogics)
+ - Period Tracker Lite
+ - Periscope
+ - PHHHOTO
+ - PhotoMath
+ - Pic Collage
+ - Pic Jointer
+ - PicPlayPost
+ - Pics HD for Reddit
+ - PicsArt
+ - Pinterest
+ - Playstation
+ - Plenty of Fish
+ - Plex
+ - Pluto TV
+ - PNC Mobile
+ - Pocket
+ - ProTube for YouTube
+ - PSECU
+ - Puffin Free
+ - Pushbullet
+ - QQ International
+ - QR Reader
+ - Quizlet
+ - QuizUp
+ - RadarScope
+ - Rdio
+ - Red Laser
+ - Redd
+ - Reddit Alien Blue
+ - Reddit Alien Blue HD
+ - Reddit AMA
+ - Redfin
+ - Reeder
+ - Replay video editor
+ - Retail Me Not
+ - Retry
+ - Rhapsody
+ - Ringtone Designer Pro
+ - Robinhood
+ - Score! Hero
+ - Screeny
+ - Setlist
+ - Shazam Free
+ - Shazam Encore
+ - Showtime Anytime
+ - Simple
+ - Sing!
+ - Skype
+ - Slack
+ - Slacker Radio
+ - Sleep Cycle
+ - SleepGenius
+ - Slick Deals
+ - SmartNews
+ - Smartplayer
+ - SnapChat
+ - Sniper Shooter
+ - Sosh
+ - SoundCloud
+ - SoundHound
+ - SoundHound Pro
+ - SpinMe Alarm
+ - Splitwise
+ - Spotify
+ - Springtomize
+ - Square Cash
+ - Star Wars Card Trader
+ - Starbucks
+ - Starbucks Malaysia
+ - Steam
+ - Strava Running and Cycling
+ - Strong
+ - Sunrise Calendar
+ - Super
+ - Superimpose
+ - Swarm
+ - Swift Key
+ - Swipes
+ - Sworkit Lite
+ - Sybu for Kodi
+ - Tabata
+ - Tango
+ - Tapatalk
+ - TeamViewer: Remote Control
+ - Telegram Messenger
+ - Telstra
+ - Things
+ - Tinder
+ - Tiny Scan
+ - ToDoMovies
+ - Transcynd
+ - Transit App
+ - Trivia Crack
+ - True Visage
+ - Tubex for YouTube
+ - Tumblr
+ - TuneIn Radio
+ - TurboTax Tax Preparation
+ - Turf Wars
+ - TV Guide
+ - TWC TV
+ - Tweetbot
+ - Twitch
+ - Twitter
+ - Twitterrific 5
+ - Two Dots
+ - Uber
+ - UpToDate
+ - Urban Spoon
+ - Vainglory
+ - Venmo - International
+ - Verizon Cloud
+ - Verizon My Verizon
+ - Vevo
+ - VG TV-Guide
+ - Viber
+ - Vimeo
+ - VINE
+ - Visage Lab
+ - Visage Lab Pro
+ - Visage Lab Pro HD
+ - VSCO Cam
+ - WakeUp
+ - Walgreens
+ - Wallapop
+ - Wallet
+ - Walmart
+ - Wattpad
+ - Waze
+ - We <3 It
+ - The Weather Channel
+ - Weather Underground
+ - WeChat
+ - Wegmans
+ - Weibo
+ - Wells Fargo
+ - WhatsApp
+ - Wikipanion
+ - Wikipanion iPad
+ - Wikipedia
+ - Wikiwand
+ - Winterboard
+ - Wiper
+ - Wish
+ - Wolfram Alpha
+ - Woodforest Mobile Banking
+ - Words with Friends Paid
+ - World Lens
+ - WorldStar
+ - Wunderlist
+ - Wykop
+ - X Mod Games
+ - XBMC
+ - Xero
+ - Xfinity Conenct
+ - Xfinity MyAccount
+ - Xfinity Play
+ - Xfinity Remote
+ - XFinity TV
+ - XKit
+ - YB
+ - Yelp
+ - Yik Yak
+ - YNAB
+ - Yahoo
+ - Yahoo Fantasy Football
+ - Yahoo Mail
+ - Yahoo News
+ - Yahoo Sports
+ - Yahoo Weather
+ - Zedge
+ - Zoosk
