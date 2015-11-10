@@ -59,7 +59,7 @@ module.exports = function(grunt) {
 
             dev: {
                 options: {
-                    name: 'minimal.iOS.dev',
+                    name: 'minimal.iOS.9.dev',
                     control: 'control-dev',
                     postfix: '.dev'
                 }
@@ -67,7 +67,7 @@ module.exports = function(grunt) {
 
             prod: {
                 options: {
-                    name: 'minimal.iOS',
+                    name: 'minimal.iOS.9',
                     control: 'control-prod'
                 }
             }
