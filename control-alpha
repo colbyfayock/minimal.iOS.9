@@ -1,0 +1,10 @@
+Package: io.fay.minimalios9.alpha
+Name: minimal.iOS.9.alpha
+Version: 0.1.3
+Architecture: iphoneos-arm
+Author: Colby Fayock <cydia@fay.io>
+Maintainer: Colby Fayock <cydia@fay.io>
+Depends: winterboard
+Section: Themes (SpringBoard)
+Description: Minimal winterboard theme
+Homepage: http://colbyfayock.github.io/minimal.iOS.9

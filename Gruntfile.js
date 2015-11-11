@@ -57,11 +57,19 @@ module.exports = function(grunt) {
 
         makedeb: {
 
+            alpha: {
+                options: {
+                    name: 'minimal.iOS.9',
+                    control: 'control-alpha',
+                    postfix: 'alpha'
+                }
+            },
+
             dev: {
                 options: {
-                    name: 'minimal.iOS.9.dev',
+                    name: 'minimal.iOS.9',
                     control: 'control-dev',
-                    postfix: '.dev'
+                    postfix: 'dev'
                 }
             },
 
@@ -114,7 +122,7 @@ module.exports = function(grunt) {
         pkg_file = '';
 
         if ( pkg_name ) pkg_file += pkg_name.replace(/ /g,"_");
-        if ( data.postfix && data.postfix !== '' ) pkg_file += data.postfix;
+        if ( data.postfix && data.postfix !== '' ) pkg_file += '.' + data.postfix;
         if ( pkg_version ) pkg_file += '-' + pkg_version;
 
         // make deb directories
@@ -128,8 +136,11 @@ module.exports = function(grunt) {
 
         exec( "find ./dist -maxdepth 1 -type d -name \"" + pkg_name + "*\"", { encoding: 'utf8' } ).split(/\n/).forEach(function(dir) {
             if ( dir.length > 0 ) {
+                var new_dir = dir.split('/').pop();
+                new_dir = new_dir.replace(' - ', '.' + data.postfix + ' - ');
                 grunt.log.write( 'Found: ' + dir + '\n');
-                exec( "cp -r " + dir.replace(/ /g,"\\ ") + " Package/Library/Themes/" );
+                grunt.log.write( 'Writing: ' + new_dir + '\n');
+                exec( "cp -r " + dir.replace(/ /g,"\\ ") + " Package/Library/Themes/" + new_dir.replace(/ /g,"\\ ") );
             }
         });
 
@@ -142,7 +153,7 @@ module.exports = function(grunt) {
         }
 
         try {
-        	exec( "find . -name \".DS_Store\" -exec rm -rf {} \\;" );
+            exec( "find . -name \".DS_Store\" -exec rm -rf {} \\;" );
             exec( "dpkg-deb -b Package" );
         } catch(e) {
             grunt.fail.fatal( 'Exiting...');
@@ -173,6 +184,10 @@ module.exports = function(grunt) {
 
     grunt.registerTask('sync', [
         'rsync:dev'
+    ]);
+
+    grunt.registerTask('alpha', [
+        'makedeb:alpha'
     ]);
 
     grunt.registerTask('dev', [
