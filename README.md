@@ -30,4 +30,4 @@ Get newer icons and bug fixes quicker with source [http://cydia.fay.io](http://c
 Attributions linking to [my Twitter (@colbyfayock)](http://twitter.com/colbyfayock) are appreciated
 
 #### Current Themed Icons
-See [https://github.com/colbyfayock/minimal.iOS.9/wiki/Themed-Icons](wiki/Themed-Icons)
+See [Themed Icons](https://github.com/colbyfayock/minimal.iOS.9/wiki/Themed-Icons)
