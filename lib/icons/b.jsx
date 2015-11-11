@@ -4,11 +4,9 @@ mios.icons.push({
     app_id: 'Badoo.app',
     psd_id: 'badoo',
     icons: {
+        iconbundle: true,
         appicon: true,
-        icon: true,
-        custom: [
-            [ 'Icon-120', 120 ]
-        ]
+        icon: true
     }
 });
 
@@ -18,14 +16,11 @@ mios.icons.push({
     app_id: 'Bandsintown Concerts.app',
     psd_id: 'bandsintown',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'Icon-Small-iOS7@2x', 80 ],
             [ 'Icon-Small', 29 ],
-            [ 'Icon-Small@2x', 58 ],
-            [ 'Icon-iOS7', 60 ],
-            [ 'Icon-iOS7@2x', 120 ],
-            [ 'Icon', 60 ],
-            [ 'Icon@2x', 120 ]
+            [ 'Icon-Small@2x', 58 ]
         ]
     }
 });
@@ -36,6 +31,7 @@ mios.icons.push({
     app_id: 'BofA.app',
     psd_id: 'bank_of_america',
     icons: {
+        iconbundle: true,
         icon: true
     }
 });
@@ -46,6 +42,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'barmagnet',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -56,6 +53,7 @@ mios.icons.push({
     app_id: 'BatterySaver.app',
     psd_id: 'battery_doctor',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'icon-120@2x', 120 ],
             [ 'icon', 60 ],
@@ -70,6 +68,7 @@ mios.icons.push({
     app_id: 'BatteryLife.app',
     psd_id: 'batterylife',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -80,6 +79,7 @@ mios.icons.push({
     app_id: 'BBCNews.app',
     psd_id: 'bbc_news_us',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'Icon-iPad', 72 ],
             [ 'Icon-iPad@2x', 144 ],
@@ -95,6 +95,7 @@ mios.icons.push({
     app_id: 'BeatsMusic.app',
     psd_id: 'beats',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -105,6 +106,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'bethpage_mobile_banking',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'icon-120', 120 ],
             [ 'icon-29', 29 ],
@@ -127,6 +129,7 @@ mios.icons.push({
     app_id: 'moto.app',
     psd_id: 'bike_race_free',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'icone-120', 120 ],
             [ 'icone-72', 72 ],
@@ -145,6 +148,7 @@ mios.icons.push({
     app_id: 'Bing.app',
     psd_id: 'bing',
     icons: {
+        iconbundle: true,
         appicon: true,
         custom: [
             [ 'Icon', 57 ]
@@ -158,6 +162,7 @@ mios.icons.push({
     app_id: 'imojiStore.app',
     psd_id: 'bitmoji',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -168,6 +173,7 @@ mios.icons.push({
     app_id: 'Team Stream.app ',
     psd_id: 'bleacher_report',
     icons: {
+        iconbundle: true,
         icon: true,
         custom: [
             [ 'Icon-57', 57 ],
@@ -192,6 +198,7 @@ mios.icons.push({
     app_id: 'Boom Beach.app',
     psd_id: 'boom_beach',
     icons: {
+        iconbundle: true,
         icon: true,
         custom: [
             [ 'Icon-40', 40 ],
@@ -209,6 +216,7 @@ mios.icons.push({
     app_id: 'Box.app',
     psd_id: 'box',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -219,6 +227,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'buffer',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -229,6 +238,7 @@ mios.icons.push({
     app_id: 'buzzfeed.app ',
     psd_id: 'buzzfeed',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -239,6 +249,7 @@ mios.icons.push({
     app_id: 'BytaFont2.app',
     psd_id: 'bytafont_2',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });

@@ -4,6 +4,7 @@ mios.icons.push({
     app_id: 'OkCupid.app ',
     psd_id: 'okcupid',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -14,6 +15,7 @@ mios.icons.push({
     app_id: 'SpeedTest.app',
     psd_id: 'ookla_speedtest',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -24,6 +26,7 @@ mios.icons.push({
     app_id: 'ooVoo.app',
     psd_id: 'oovoo',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -34,6 +37,7 @@ mios.icons.push({
     app_id: 'OpenTable.app ',
     psd_id: 'opentable',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -44,25 +48,17 @@ mios.icons.push({
     app_id: 'OpenVPN.app ',
     psd_id: 'openvpn',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'Icon-100x100', 100 ],
-            [ 'Icon-120x120', 120 ],
-            [ 'Icon-144x144', 144 ],
-            [ 'Icon-152x152', 152 ],
             [ 'Icon-40x40', 40 ],
-            [ 'Icon-72', 72 ],
-            [ 'Icon-76x76', 76 ],
             [ 'Icon-80x80', 80 ],
             [ 'Icon-Small-50', 50 ],
             [ 'Icon-Small-50@2x', 100 ],
             [ 'Icon-Small', 29 ],
             [ 'Icon-Small@2x', 58 ],
-            [ 'Icon', 57 ],
-            [ 'Icon@2x', 114 ],
             [ 'OpenVPN-Small', 29 ],
-            [ 'OpenVPN-Small@2x', 58 ],
-            [ 'OpenVPN', 57 ],
-            [ 'OpenVPN@2x', 114 ]
+            [ 'OpenVPN-Small@2x', 58 ]
         ]
     }
 });
@@ -73,6 +69,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'opera_mini',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -83,6 +80,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'outbank',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'AppIcon_OutBankDE29x29', 29 ],
             [ 'AppIcon_OutBankDE29x29~ipad', 29 ],
@@ -95,11 +93,7 @@ mios.icons.push({
             [ 'AppIcon_OutBankDE40x40@2x', 80 ],
             [ 'AppIcon_OutBankDE40x40@2x~ipad', 80 ],
             [ 'AppIcon_OutBankDE40x40@3x', 120 ],
-            [ 'AppIcon_OutBankDE40x40@3x~ipad', 120 ],
-            [ 'AppIcon_OutBankDE60x60@2x', 120 ],
-            [ 'AppIcon_OutBankDE60x60@3x', 180 ],
-            [ 'AppIcon_OutBankDE76x76~ipad', 76 ],
-            [ 'AppIcon_OutBankDE76x76@2x~ipad', 152 ]
+            [ 'AppIcon_OutBankDE40x40@3x~ipad', 120 ]
         ]
     }
 });
@@ -110,6 +104,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'over',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -120,6 +115,7 @@ mios.icons.push({
     app_id: 'Overcast.app',
     psd_id: 'overcast',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });

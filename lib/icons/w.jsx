@@ -4,6 +4,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'wakeup',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -14,6 +15,7 @@ mios.icons.push({
     app_id: 'Sparkle.app',
     psd_id: 'walgreens',
     icons: {
+        iconbundle: true,
         appicon: true,
         icon: true
     }
@@ -25,6 +27,7 @@ mios.icons.push({
     app_id: 'Wallapop.app',
     psd_id: 'wallapop',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'AppIcon-AppStore29x29@2x', 58 ],
             [ 'AppIcon-AppStore29x29@2x~ipad', 58 ],
@@ -32,10 +35,7 @@ mios.icons.push({
             [ 'AppIcon-AppStore40x40@2x', 80 ],
             [ 'AppIcon-AppStore40x40@2x~ipad', 80 ],
             [ 'AppIcon-AppStore40x40@3x', 120 ],
-            [ 'AppIcon-AppStore40x40~ipad', 40 ],
-            [ 'AppIcon-AppStore60x60@2x', 120 ],
-            [ 'AppIcon-AppStore76x76@2x~ipad', 152 ],
-            [ 'AppIcon-AppStore76x76~ipad', 76 ]
+            [ 'AppIcon-AppStore40x40~ipad', 40 ]
         ]
     }
 });
@@ -46,13 +46,10 @@ mios.icons.push({
     app_id: 'Wallet.app',
     psd_id: 'wallet',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'Icon-Settings', 29 ],
-            [ 'Icon-Settings@2x', 58 ],
-            [ 'iPadAppIcon', 72 ],
-            [ 'iPadAppIcon@2x', 144 ],
-            [ 'icon', 60 ],
-            [ 'icon@2x', 120 ]
+            [ 'Icon-Settings@2x', 58 ]
         ]
     }
 });
@@ -63,13 +60,12 @@ mios.icons.push({
     app_id: 'Walmart.app',
     psd_id: 'walmart',
     icons: {
+        iconbundle: true,
         appicon: true,
         custom: [
             [ 'Icon-120', 120 ],
             [ 'Icon-29', 29 ],
             [ 'Icon-29@2x', 58 ],
-            [ 'Icon-57', 57 ],
-            [ 'Icon-57@2x', 114 ],
             [ 'Icon-80', 80 ]
         ]
     }
@@ -81,6 +77,7 @@ mios.icons.push({
     app_id: 'Wattpad.app',
     psd_id: 'wattpad',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -91,21 +88,15 @@ mios.icons.push({
     app_id: 'Waze.app',
     psd_id: 'waze',
     icons: {
+        iconbundle: true,
         appicon: true,
         custom: [
             [ '29x29', 29 ],
             [ '40x40', 40 ],
             [ '50x50', 50 ],
-            [ '57x57', 57 ],
             [ '58x58', 58 ],
-            [ '72x72', 72 ],
-            [ '76x76', 76 ],
             [ '80x80', 80 ],
-            [ '100x100 ', 100 ],
-            [ '114x114', 114 ],
-            [ '120x120 ', 120 ],
-            [ '144x144', 144 ],
-            [ '152x152', 152 ]
+            [ '100x100 ', 100 ]
         ]
 
     }
@@ -117,6 +108,7 @@ mios.icons.push({
     app_id: 'weheartit.app',
     psd_id: 'we_love_it',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -127,6 +119,7 @@ mios.icons.push({
     app_id: 'iPhone.app',
     psd_id: 'weather_channel',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -137,6 +130,7 @@ mios.icons.push({
     app_id: 'wuflagship.app',
     psd_id: 'weather_underground',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -147,11 +141,8 @@ mios.icons.push({
     app_id: 'MicroMessenger.app',
     psd_id: 'wechat',
     icons: {
-        appicon: true,
-        custom: [
-            [ 'Icon', 60 ],
-            [ 'Icon@2x', 120 ]
-        ]
+        iconbundle: true,
+        appicon: true
     }
 });
 
@@ -161,6 +152,7 @@ mios.icons.push({
     app_id: 'Wegmans.app',
     psd_id: 'wegmans',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -171,12 +163,7 @@ mios.icons.push({
     app_id: 'Weibo.app',
     psd_id: 'weibo',
     icons: {
-        custom: [
-            [ 'icon', 60 ],
-            [ 'icon@2x', 120 ],
-            [ 'icon@3x', 180 ],
-            [ 'icon_os7@2x', 120 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -186,10 +173,7 @@ mios.icons.push({
     app_id: 'Wells_Fargo_Mobile_Banking_iPhone.app',
     psd_id: 'wells_fargo',
     icons: {
-        custom: [
-            [ 'wfAppIcon', 60 ],
-            [ 'wfAppIcon@2x', 120 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -199,6 +183,7 @@ mios.icons.push({
     app_id: 'WhatsApp.app',
     psd_id: 'whatsapp',
     icons: {
+        iconbundle: true,
         appicon: true,
         custom: [
             [ 'Icon-Settings', 29 ],
@@ -206,12 +191,7 @@ mios.icons.push({
             [ 'Icon-Settings@3x', 87 ],
             [ 'Icon-Spotlight', 40 ],
             [ 'Icon-Spotlight@2x', 80 ],
-            [ 'Icon-Spotlight@3x', 120 ],
-            [ 'Icon-iOS6', 57 ],
-            [ 'Icon-iOS6@2x', 114 ],
-            [ 'Icon', 60 ],
-            [ 'Icon@2x', 120 ],
-            [ 'Icon@3x', 180 ]
+            [ 'Icon-Spotlight@3x', 120 ]
         ]
     }
 });
@@ -222,22 +202,16 @@ mios.icons.push({
     app_id: 'Wikipanion.app',
     psd_id: 'wikipanion',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'Wikipanion', 60 ],
             [ 'Wikipanion29', 29 ],
             [ 'Wikipanion50', 50 ],
             [ 'Wikipanion58', 58 ],
-            [ 'Wikipanion72', 72 ],
-            [ 'Wikipanion114', 114 ],
             [ 'Wikipanion_AppIcon_29', 29 ],
             [ 'Wikipanion_AppIcon_29@2x', 58 ],
             [ 'Wikipanion_AppIcon_29@3x', 87 ],
-            [ 'Wikipanion_AppIcon_40', 40 ],
-            [ 'Wikipanion_AppIcon_40@2x', 80 ],
-            [ 'Wikipanion_AppIcon_60@2x', 120 ],
-            [ 'Wikipanion_AppIcon_60@3x', 180 ],
-            [ 'Wikipanion_AppIcon_76', 76 ],
-            [ 'Wikipanion_AppIcon_76@2x', 152 ]
+            [ 'Wikipanion_AppIcon_40', 40 ]
         ]
     }
 });
@@ -248,22 +222,16 @@ mios.icons.push({
     app_id: 'Wikipanion.app',
     psd_id: 'wikipanion',
     icons: {
+        iconbundle: true,
         custom: [
-            [ 'Wikipanion', 60 ],
             [ 'Wikipanion29', 29 ],
             [ 'Wikipanion50', 50 ],
             [ 'Wikipanion58', 58 ],
-            [ 'Wikipanion72', 72 ],
-            [ 'Wikipanion114', 114 ],
             [ 'Wikipanion_AppIcon_29', 29 ],
             [ 'Wikipanion_AppIcon_29@2x', 58 ],
             [ 'Wikipanion_AppIcon_29@3x', 87 ],
             [ 'Wikipanion_AppIcon_40', 40 ],
-            [ 'Wikipanion_AppIcon_40@2x', 80 ],
-            [ 'Wikipanion_AppIcon_60@2x', 120 ],
-            [ 'Wikipanion_AppIcon_60@3x', 180 ],
-            [ 'Wikipanion_AppIcon_76', 76 ],
-            [ 'Wikipanion_AppIcon_76@2x', 152 ]
+            [ 'Wikipanion_AppIcon_40@2x', 80 ]
         ]
     }
 });
@@ -274,6 +242,7 @@ mios.icons.push({
     app_id: 'Wikipedia.app',
     psd_id: 'wikipedia',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -284,6 +253,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'wikiwand',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -302,6 +272,7 @@ mios.icons.push({
     app_id: 'Wiper.app',
     psd_id: 'wiper_messenger',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'WiperAppIcon29x29', 29 ],
             [ 'WiperAppIcon29x29@2x', 58 ],
@@ -311,14 +282,7 @@ mios.icons.push({
             [ 'WiperAppIcon40x40@2x~ipad', 80 ],
             [ 'WiperAppIcon40x40~ipad', 40 ],
             [ 'WiperAppIcon50x50@2x~ipad', 100 ],
-            [ 'WiperAppIcon50x50~ipad', 50 ],
-            [ 'WiperAppIcon57x57', 57 ],
-            [ 'WiperAppIcon57x57@2x', 114 ],
-            [ 'WiperAppIcon60x60@2x', 120 ],
-            [ 'WiperAppIcon72x72@2x~ipad', 144 ],
-            [ 'WiperAppIcon72x72~ipad', 72 ],
-            [ 'WiperAppIcon76x76@2x~ipad', 152 ],
-            [ 'WiperAppIcon76x76~ipad', 76 ]
+            [ 'WiperAppIcon50x50~ipad', 50 ]
         ]
     }
 });
@@ -329,6 +293,7 @@ mios.icons.push({
     app_id: 'Wish.app',
     psd_id: 'wish',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -339,16 +304,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'wolfram_alpha',
     icons: {
-        custom: [
-            [ 'WolframAlpha-AppIcon57x57',          57 ],
-            [ 'WolframAlpha-AppIcon57x57@2x',       114 ],
-            [ 'WolframAlpha-AppIcon60x60@2x',       120 ],
-            [ 'WolframAlpha-AppIcon60x60@3x',       180 ],
-            [ 'WolframAlpha-AppIcon72x72~ipad',     72 ],
-            [ 'WolframAlpha-AppIcon72x72@2x~ipad',  144 ],
-            [ 'WolframAlpha-AppIcon76x76~ipad',     76 ],
-            [ 'WolframAlpha-AppIcon76x76@2x~ipad',  152 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -358,21 +314,16 @@ mios.icons.push({
     app_id: false,
     psd_id: 'woodforest_mobile_banking',
     icons: {
+        iconbundle: true,
         custom: [
             [ '29x29', 29 ],
             [ '40x40', 40 ],
             [ '50', 50 ],
-            [ '57', 57 ],
             [ '58x58', 58 ],
-            [ '60', 60 ],
-            [ '72', 72 ],
-            [ '76x76', 76 ],
             [ '80x80', 80 ],
             [ '100', 100 ],
             [ '114', 114 ],
-            [ '12', 12 ],
-            [ '144', 144 ],
-            [ '152x152', 152 ]
+            [ '12', 12 ]
         ]
     }
 });
@@ -383,6 +334,7 @@ mios.icons.push({
     app_id: 'WordsWithFriendsPaid.app',
     psd_id: 'words_with_friends_paid',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -393,6 +345,7 @@ mios.icons.push({
     app_id: 'WordLens.app ',
     psd_id: 'world_lens',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -403,6 +356,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'worldstar',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -413,6 +367,7 @@ mios.icons.push({
     app_id: 'Wunderlist.app',
     psd_id: 'wunderlist',
     icons: {
+        iconbundle: true,
         appicon: true,
         custom: [
             [ 'AppIcon-AppStore29x29@2x', 58 ],
@@ -422,11 +377,7 @@ mios.icons.push({
             [ 'AppIcon-AppStore40x40@2x', 80 ],
             [ 'AppIcon-AppStore40x40@2x~ipad', 80 ],
             [ 'AppIcon-AppStore40x40@3x', 120 ],
-            [ 'AppIcon-AppStore40x40~ipad', 40 ],
-            [ 'AppIcon-AppStore60x60@2x', 120 ],
-            [ 'AppIcon-AppStore60x60@3x', 180 ],
-            [ 'AppIcon-AppStore76x76@2x~ipad', 152 ],
-            [ 'AppIcon-AppStore76x76~ipad', 76 ]
+            [ 'AppIcon-AppStore40x40~ipad', 40 ]
         ]
     }
 });
@@ -437,6 +388,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'wykop',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });

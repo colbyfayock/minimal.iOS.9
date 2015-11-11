@@ -4,6 +4,7 @@ mios.icons.push({
     app_id: 'iAlien.app ',
     psd_id: 'ialien',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -14,6 +15,7 @@ mios.icons.push({
     app_id: 'Ibotta.app',
     psd_id: 'ibotta',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -24,6 +26,7 @@ mios.icons.push({
     app_id: 'iCleaner.app',
     psd_id: 'icleaner',
     icons: {
+        iconbundle: true,
         icon: true
     }
 });
@@ -34,6 +37,7 @@ mios.icons.push({
     app_id: 'iCleaner.app',
     psd_id: 'icleaner',
     icons: {
+        iconbundle: true,
         icon: true
     }
 });
@@ -44,6 +48,7 @@ mios.icons.push({
     app_id: 'IFTTT.app',
     psd_id: 'if',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -54,6 +59,7 @@ mios.icons.push({
     app_id: 'iFile.app',
     psd_id: 'ifile',
     icons: {
+        iconbundle: true,
         appicon: true,
         icon: true
     }
@@ -65,6 +71,7 @@ mios.icons.push({
     app_id: 'iFunny.app',
     psd_id: 'ifunny',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -75,6 +82,7 @@ mios.icons.push({
     app_id: 'iHeartRadio.app',
     psd_id: 'iheart_radio',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -85,6 +93,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'iko',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -95,11 +104,7 @@ mios.icons.push({
     app_id: 'iLexRestore.app',
     psd_id: 'ilex_rat',
     icons: {
-        custom: [
-            [ 'Icon', 60 ],
-            [ 'Icon@2x', 120 ],
-            [ 'Icon@2x144', 152 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -109,11 +114,10 @@ mios.icons.push({
     app_id: 'IMDb.app',
     psd_id: 'imdb',
     icons: {
+        iconbundle: true,
         appicon: true,
         custom: [
-            [ 'Icon@2x', 114 ],
-            [ 'Icon-Small@2x', 58 ],
-            [ 'Icon-iPad@2x', 144 ]
+            [ 'Icon-Small@2x', 58 ]
         ]
     }
 });
@@ -124,6 +128,7 @@ mios.icons.push({
     app_id: 'Imgur.app',
     psd_id: 'imgur',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -134,6 +139,7 @@ mios.icons.push({
     app_id: 'imgur browser.app',
     psd_id: 'imgur_browsr',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -144,6 +150,7 @@ mios.icons.push({
     app_id: 'imo.app',
     psd_id: 'imo',
     icons: {
+        iconbundle: true,
         icon: true
     }
 });
@@ -154,6 +161,7 @@ mios.icons.push({
     app_id: 'Inbox.app',
     psd_id: 'inbox_messenger',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -164,6 +172,7 @@ mios.icons.push({
     app_id: 'Indeed Jobs.app',
     psd_id: 'indeed',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -174,6 +183,7 @@ mios.icons.push({
     app_id: 'Instacast.app',
     psd_id: 'instacast',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -184,16 +194,7 @@ mios.icons.push({
     app_id: 'instaCollageFree.app',
     psd_id: 'instacollage_free',
     icons: {
-        custom: [
-            [ '114', 114 ],
-            [ '120', 120 ],
-            [ '144', 144 ],
-            [ '152', 152 ],
-            [ '156', 156 ],
-            [ '57', 57 ],
-            [ '72', 72 ],
-            [ '76', 76 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -203,13 +204,7 @@ mios.icons.push({
     app_id: 'Instagram.app',
     psd_id: 'instagram',
     icons: {
-        custom: [
-            [ 'Icon-57', 57 ],
-            [ 'Icon-57@2x', 114 ],
-            [ 'Icon-57@3x', 171 ],
-            [ 'Icon-60@2x', 120 ],
-            [ 'Icon-60@3x', 180 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -219,12 +214,8 @@ mios.icons.push({
     app_id: 'InstaSize.app',
     psd_id: 'instasize',
     icons: {
-        appicon: true,
-        custom: [
-            [ 'InstaSize_App_Icon', 60 ],
-            [ 'InstaSize_App_Icon@2x', 120 ],
-            [ 'InstaSize_App_Icon_120', 120 ]
-        ]
+        iconbundle: true,
+        appicon: true
     }
 });
 
@@ -234,6 +225,7 @@ mios.icons.push({
     app_id: 'iTube.app',
     psd_id: 'itube',
     icons: {
+        iconbundle: true,
         icon: true
     }
 });

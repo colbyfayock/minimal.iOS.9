@@ -4,11 +4,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'tabata',
     icons: {
-        custom: [
-            [ 'Icon', 60 ],
-            [ 'Icon-60@2x', 120 ],
-            [ 'Icon-60@3x', 180 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -18,6 +14,7 @@ mios.icons.push({
     app_id: 'Tango.app',
     psd_id: 'tango',
     icons: {
+        iconbundle: true,
         appicon: true,
         icon: true
 
@@ -30,6 +27,7 @@ mios.icons.push({
     app_id: 'TapatalkFree.app',
     psd_id: 'tapatalk',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -40,6 +38,7 @@ mios.icons.push({
     app_id: 'RemoteControl.app',
     psd_id: 'teamviewer',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -50,6 +49,7 @@ mios.icons.push({
     app_id: 'Telegram.app',
     psd_id: 'telegram_messenger',
     icons: {
+        iconbundle: true,
         icon: true
     }
 });
@@ -60,12 +60,9 @@ mios.icons.push({
     app_id: 'Telstra 24x7.app',
     psd_id: 'telstra',
     icons: {
+        iconbundle: true,
         appicon: true,
-        icon: true,
-        custom: [
-            [ 'Icon-80', 80 ],
-            [ 'Icon-120', 120 ]
-        ]
+        icon: true
     }
 });
 
@@ -75,14 +72,11 @@ mios.icons.push({
     app_id: false,
     psd_id: 'things',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'AppIcon-29px', 29 ],
             [ 'AppIcon-40px', 40 ],
-            [ 'AppIcon-50px', 50 ],
-            [ 'AppIcon-57px', 57 ],
-            [ 'AppIcon-60px', 60 ],
-            [ 'AppIcon-72px', 72 ],
-            [ 'AppIcon-76px', 76 ]
+            [ 'AppIcon-50px', 50 ]
         ]
     }
 });
@@ -93,6 +87,7 @@ mios.icons.push({
     app_id: 'Tinder.app',
     psd_id: 'tinder',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -103,6 +98,7 @@ mios.icons.push({
     app_id: 'VectorScanner',
     psd_id: 'tinyscan',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -113,6 +109,7 @@ mios.icons.push({
     app_id: 'TodoMovies.app',
     psd_id: 'todomovies',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -123,6 +120,7 @@ mios.icons.push({
     app_id: 'Transcynd.app',
     psd_id: 'transcynd',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -133,6 +131,7 @@ mios.icons.push({
     app_id: 'Transit.app',
     psd_id: 'transit_app',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -143,6 +142,7 @@ mios.icons.push({
     app_id: 'Preguntados.app',
     psd_id: 'trivia_crack',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -153,16 +153,7 @@ mios.icons.push({
     app_id: 'TrueVisage.app',
     psd_id: 'true_visage',
     icons: {
-        custom: [
-            [ 'icon7@2x~ipad', 152 ],
-            [ 'icon7@2x~iphone', 120 ],
-            [ 'icon7~ipad', 76 ],
-            [ 'icon8@3x~iphone', 180 ],
-            [ 'icon@2x~ipad', 144 ],
-            [ 'icon@2x~iphone', 114 ],
-            [ 'icon~ipad', 72 ],
-            [ 'icon~iphone', 57 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -172,6 +163,7 @@ mios.icons.push({
     app_id: 'Tubex.app',
     psd_id: 'tubex_for_youtube',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -182,17 +174,14 @@ mios.icons.push({
     app_id: 'Tumblr.app',
     psd_id: 'tumblr',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'TumblrIcon29x29@2x', 58 ],
             [ 'TumblrIcon29x29@2x~ipad', 58 ],
             [ 'TumblrIcon29x29~ipad', 29 ],
             [ 'TumblrIcon40x40@2x', 80 ],
             [ 'TumblrIcon40x40@2x~ipad', 80 ],
-            [ 'TumblrIcon40x40~ipad', 40 ],
-            [ 'TumblrIcon60x60@2x', 120 ],
-            [ 'TumblrIcon60x60@3x', 180 ],
-            [ 'TumblrIcon76x76@2x~ipad', 152 ],
-            [ 'TumblrIcon76x76~ipad', 76 ]
+            [ 'TumblrIcon40x40~ipad', 40 ]
         ]
     }
 });
@@ -203,6 +192,7 @@ mios.icons.push({
     app_id: 'TuneIn Radio.app',
     psd_id: 'tunein_radio',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -213,6 +203,7 @@ mios.icons.push({
     app_id: 'TurboTax.app',
     psd_id: 'turbotax_tax_preparation',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -223,6 +214,7 @@ mios.icons.push({
     app_id: 'TurfWars.app',
     psd_id: 'turf_wars',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -233,6 +225,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'tv_guide',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -243,6 +236,7 @@ mios.icons.push({
     app_id: 'TWCTV.app',
     psd_id: 'twc_tv',
     icons: {
+        iconbundle: true,
         icon: true
     }
 });
@@ -253,6 +247,7 @@ mios.icons.push({
     app_id: 'Tweetbot.app',
     psd_id: 'tweetbot',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -263,16 +258,13 @@ mios.icons.push({
     app_id: 'Twitch.app',
     psd_id: 'twitch',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'TwitchAppIcon29x29@2x', 58 ],
             [ 'TwitchAppIcon58x29@2x~ipad', 29 ],
             [ 'TwitchAppIcon29x29~ipad', 29 ],
             [ 'TwitchAppIcon40x40@2x', 80 ],
-            [ 'TwitchAppIcon80x40@2x~ipad', 40 ],
-            [ 'TwitchAppIcon40x40~ipad', 40 ],
-            [ 'TwitchAppIcon60x60@2x', 120 ],
-            [ 'TwitchAppIcon76x76@2x~ipad', 152 ],
-            [ 'TwitchAppIcon76x76~ipad', 76 ]
+            [ 'TwitchAppIcon80x40@2x~ipad', 40 ]
         ]
     }
 });
@@ -283,16 +275,7 @@ mios.icons.push({
     app_id: 'Twitter.app',
     psd_id: 'twitter',
     icons: {
-        custom: [
-            [ 'ProductionAppIcon57x57', 57 ],
-            [ 'ProductionAppIcon57x57@2x', 114 ],
-            [ 'ProductionAppIcon60x60@2x', 120 ],
-            [ 'ProductionAppIcon60x60@3x', 180 ],
-            [ 'ProductionAppIcon72x72@2x~ipad', 144 ],
-            [ 'ProductionAppIcon72x72~ipad', 72 ],
-            [ 'ProductionAppIcon76x76@2x~ipad', 152 ],
-            [ 'ProductionAppIcon76x76~ipad', 76 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -302,6 +285,7 @@ mios.icons.push({
     app_id: 'Twitterrific.app',
     psd_id: 'Twitterrific',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -312,6 +296,7 @@ mios.icons.push({
     app_id: 'twodots.app',
     psd_id: 'two_dots',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });

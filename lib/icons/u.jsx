@@ -4,13 +4,11 @@ mios.icons.push({
     app_id: 'UberClient.app',
     psd_id: 'uber',
     icons: {
+        iconbundle: true,
         icon: true,
         custom: [
             [ 'Icon40', 40 ],
-            [ 'Icon40@2x', 80 ],
-            [ 'Icon60', 60 ],
-            [ 'Icon60@2x', 120 ],
-            [ 'Icon60@3x', 180 ]
+            [ 'Icon40@2x', 80 ]
         ]
     }
 });
@@ -21,15 +19,13 @@ mios.icons.push({
     app_id: 'uptodate.app',
     psd_id: 'uptodate',
     icons: {
+        iconbundle: true,
         appicon: true,
         custom: [
             [ 'icon-app-white-11', 11 ],
             [ 'icon-app-white-29', 29 ],
             [ 'icon-app-white-50', 50 ],
-            [ 'icon-app-white-57', 57 ],
-            [ 'icon-app-white-58', 58 ],
-            [ 'icon-app-white-72', 72 ],
-            [ 'icon-app-white-114', 114 ]
+            [ 'icon-app-white-58', 58 ]
         ]
     }
 });
@@ -40,6 +36,7 @@ mios.icons.push({
     app_id: 'urbanspin.app',
     psd_id: 'urbanspoon',
     icons: {
+        iconbundle: true,
         icon: true,
         custom: [
             [ 'Icon-58', 58 ],

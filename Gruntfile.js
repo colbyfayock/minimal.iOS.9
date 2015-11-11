@@ -83,7 +83,7 @@ module.exports = function(grunt) {
 
             dev: {
                 options: {
-                    src: "dist/mios-iconbundles",
+                    src: "dist/mios",
                     dest: "/Library/Themes",
                     host: "root@192.168.1.182" // iPhone
                     // host: "root@192.168.1.84" // iPad

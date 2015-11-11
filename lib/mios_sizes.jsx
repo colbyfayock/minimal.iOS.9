@@ -25,50 +25,15 @@ mios.sizes = {
         [ 'AppIcon40x40@3x~ipad',  120 ],
 
         [ 'AppIcon50x50',          50 ],
-        [ 'AppIcon50x50@2x',       100 ],
-
-        [ 'AppIcon57x57',          57 ],
-        [ 'AppIcon57x57@2x',       114 ],
-
-        [ 'AppIcon60x60',          60 ],
-        [ 'AppIcon60x60@2x',       120 ],
-        [ 'AppIcon60x60@3x',       180 ],
-
-        [ 'AppIcon72x72',          72 ],
-        [ 'AppIcon72x72~ipad',     72 ],
-        [ 'AppIcon72x72@2x',       144 ],
-        [ 'AppIcon72x72@2x~ipad',  144 ],
-
-        [ 'AppIcon76x76',          76 ],
-        [ 'AppIcon76x76~ipad',     76 ],
-        [ 'AppIcon76x76@2x',       152 ],
-        [ 'AppIcon76x76@2x~ipad',  152 ],
-
-        [ 'AppIcon120x120',        120 ]
+        [ 'AppIcon50x50@2x',       100 ]
 
     ],
 
     icon: [
 
-        [ 'Icon',              60 ],
-        [ 'Icon@2x',           120 ],
-        [ 'Icon@3x',           180 ],
-
         [ 'Icon-40',           40 ],
         [ 'Icon-40@2x',        80 ],
         [ 'Icon-40@3x',        180 ],
-
-        [ 'Icon-60',           60 ],
-        [ 'Icon-60@2x',        120 ],
-        [ 'Icon-60@3x',        180 ],
-
-        [ 'Icon-72',           72 ],
-        [ 'Icon-72@2x',        144 ],
-        [ 'Icon-72@3x',        216 ],
-
-        [ 'Icon-76',           76 ],
-        [ 'Icon-76@2x',        152 ],
-        [ 'Icon-76@3x',        228 ],
 
         [ 'Icon-Small-40',     40 ],
         [ 'Icon-Small-40@2x',  80 ],

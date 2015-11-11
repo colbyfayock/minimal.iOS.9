@@ -1,164 +1,11 @@
 mios.icons.push({
-    name: 'Apple Accounts - Backup',
-    bundle_id: 'com.apple.accountsui',
-    app_id: false,
-    psd_id: 'apple_backup',
-    mask: true,
-    icons: {
-        custom: [
-            [ 'com.apple.Dataclass.Backup@2x', 58 ],
-            [ 'com.apple.Dataclass.Backup@3x', 87 ]
-        ]
-    }
-});
-
-mios.icons.push({
-    name: 'Apple Accounts - Bookmarks',
-    bundle_id: 'com.apple.accountsui',
-    app_id: false,
-    psd_id: 'apple_safari',
-    mask: true,
-    icons: {
-        custom: [
-            [ 'com.apple.Dataclass.Bookmarks@2x', 58 ],
-            [ 'com.apple.Dataclass.Bookmarks@3x', 87 ]
-        ]
-    }
-});
-
-mios.icons.push({
-    name: 'Apple Accounts - Calendars',
-    bundle_id: 'com.apple.accountsui',
-    app_id: false,
-    psd_id: 'apple_calendar',
-    mask: true,
-    icons: {
-        custom: [
-            [ 'com.apple.Dataclass.Calendars@2x', 58 ],
-            [ 'com.apple.Dataclass.Calendars@3x', 87 ]
-        ]
-    }
-});
-
-mios.icons.push({
-    name: 'Apple Accounts - CKDatabaseService',
-    bundle_id: 'com.apple.accountsui',
-    app_id: false,
-    psd_id: 'apple_icloud',
-    mask: true,
-    icons: {
-        custom: [
-            [ 'com.apple.Dataclass.CKDatabaseService@2x', 58 ],
-            [ 'com.apple.Dataclass.CKDatabaseService@3x', 87 ]
-        ]
-    }
-});
-
-mios.icons.push({
-    name: 'Apple Accounts - Contacts',
-    bundle_id: 'com.apple.accountsui',
-    app_id: false,
-    psd_id: 'apple_contacts',
-    mask: true,
-    icons: {
-        custom: [
-            [ 'com.apple.Dataclass.Contacts@2x', 58 ],
-            [ 'com.apple.Dataclass.Contacts@3x', 87 ]
-        ]
-    }
-});
-
-mios.icons.push({
-    name: 'Apple Accounts - Keychain Sync',
-    bundle_id: 'com.apple.accountsui',
-    app_id: false,
-    psd_id: 'apple_keychain',
-    mask: true,
-    icons: {
-        custom: [
-            [ 'com.apple.Dataclass.KeychainSync@2x', 58 ],
-            [ 'com.apple.Dataclass.KeychainSync@3x', 87 ]
-        ]
-    }
-});
-
-mios.icons.push({
-    name: 'Apple Accounts - Mail',
-    bundle_id: 'com.apple.accountsui',
-    app_id: false,
-    psd_id: 'apple_mail',
-    mask: true,
-    icons: {
-        custom: [
-            [ 'com.apple.Dataclass.Mail@2x', 58 ],
-            [ 'com.apple.Dataclass.Mail@3x', 87 ]
-        ]
-    }
-});
-
-mios.icons.push({
-    name: 'Apple Accounts - Media Stream',
-    bundle_id: 'com.apple.accountsui',
-    app_id: false,
-    psd_id: 'apple_camera_roll',
-    mask: true,
-    icons: {
-        custom: [
-            [ 'com.apple.Dataclass.MediaStream@2x', 58 ],
-            [ 'com.apple.Dataclass.MediaStream@3x', 87 ]
-        ]
-    }
-});
-
-mios.icons.push({
-    name: 'Apple Accounts - Notes',
-    bundle_id: 'com.apple.accountsui',
-    app_id: false,
-    psd_id: 'apple_notes',
-    mask: true,
-    icons: {
-        custom: [
-            [ 'com.apple.Dataclass.Notes@2x', 58 ],
-            [ 'com.apple.Dataclass.Notes@3x', 87 ]
-        ]
-    }
-});
-
-mios.icons.push({
-    name: 'Apple Accounts - Reminders',
-    bundle_id: 'com.apple.accountsui',
-    app_id: false,
-    psd_id: 'apple_reminders',
-    mask: true,
-    icons: {
-        custom: [
-            [ 'com.apple.Dataclass.Reminders@2x', 58 ],
-            [ 'com.apple.Dataclass.Reminders@3x', 87 ]
-        ]
-    }
-});
-
-mios.icons.push({
-    name: 'Apple Accounts - Shoebox',
-    bundle_id: 'com.apple.accountsui',
-    app_id: false,
-    psd_id: 'apple_passbook',
-    mask: true,
-    icons: {
-        custom: [
-            [ 'com.apple.Dataclass.Shoebox@2x', 58 ],
-            [ 'com.apple.Dataclass.Shoebox@3x', 87 ]
-        ]
-    }
-});
-
-mios.icons.push({
     name: 'Apple Airport Utility',
     bundle_id: 'com.apple.airport.mobileairportutility',
     app_id: false,
     psd_id: 'apple_wifi',
     mask: true,
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -169,129 +16,14 @@ mios.icons.push({
     app_id: 'AppStore.app',
     psd_id: 'apple_app_store',
     icons: {
+        iconbundle: true,
         appicon: true,
         custom: [
             [ 'Appstore20', 20 ],
             [ 'Appstore29', 29 ],
             [ 'Appstore40', 40 ],
             [ 'Appstore58', 58 ],
-            [ 'Appstore76', 76 ],
-            [ 'Appstore80', 80 ],
-            [ 'Appstore120', 120 ],
-            [ 'Appstore152', 152 ],
-            [ 'Appstore180', 180 ]
-        ]
-    }
-});
-
-mios.icons.push({
-    name: 'Apple Assistant',
-    bundle_id: 'com.apple.AssistantServices',
-    app_id: false,
-    psd_id: 'apple_assistant',
-    mask: true,
-    icons: {
-        custom: [
-            [ 'settings_siri@2x', 58 ],
-            [ 'settings_siri@3x', 87 ]
-        ]
-    }
-});
-
-mios.icons.push({
-    name: 'Apple Assistant - Calendar',
-    bundle_id: 'com.apple.assistant.System',
-    app_id: false,
-    psd_id: 'apple_calendar',
-    mask: true,
-    icons: {
-        custom: [
-            [ 'Calendar@2x', 120 ],
-            [ 'Calendar@3x', 180 ]
-        ]
-    }
-});
-
-mios.icons.push({
-    name: 'Apple Assistant - Movies',
-    bundle_id: 'com.apple.assistant.System',
-    app_id: false,
-    psd_id: 'apple_videos',
-    mask: true,
-    icons: {
-        custom: [
-            [ 'Movies@2x', 120 ],
-            [ 'Movies@3x', 180 ]
-        ]
-    }
-});
-
-mios.icons.push({
-    name: 'Apple Assistant - QandA',
-    bundle_id: 'com.apple.assistant.System',
-    app_id: false,
-    psd_id: 'apple_qa',
-    mask: true,
-    icons: {
-        custom: [
-            [ 'QandA@2x', 120 ],
-            [ 'QandA@3x', 180 ]
-        ]
-    }
-});
-
-mios.icons.push({
-    name: 'Apple Assistant - Restaurants',
-    bundle_id: 'com.apple.assistant.System',
-    app_id: false,
-    psd_id: 'apple_restaurants',
-    mask: true,
-    icons: {
-        custom: [
-            [ 'Restaurants@2x', 120 ],
-            [ 'Restaurants@3x', 180 ]
-        ]
-    }
-});
-
-mios.icons.push({
-    name: 'Apple Assistant - Sports',
-    bundle_id: 'com.apple.assistant.System',
-    app_id: false,
-    psd_id: 'apple_sports',
-    mask: true,
-    icons: {
-        custom: [
-            [ 'Sports@2x', 120 ],
-            [ 'Sports@3x', 180 ]
-        ]
-    }
-});
-
-mios.icons.push({
-    name: 'Apple Assistant - Twitter',
-    bundle_id: 'com.apple.assistant.System',
-    app_id: false,
-    psd_id: 'twitter',
-    mask: true,
-    icons: {
-        custom: [
-            [ 'Twitter@2x', 120 ],
-            [ 'Twitter@3x', 180 ]
-        ]
-    }
-});
-
-mios.icons.push({
-    name: 'Apple Assistant - facebook',
-    bundle_id: 'com.apple.assistant.System',
-    app_id: false,
-    psd_id: 'facebook',
-    mask: true,
-    icons: {
-        custom: [
-            [ 'facebook@2x', 120 ],
-            [ 'facebook@3x', 180 ]
+            [ 'Appstore80', 80 ]
         ]
     }
 });
@@ -302,13 +34,12 @@ mios.icons.push({
     app_id: 'Calculator.app',
     psd_id: 'apple_calculator',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'icon-about@2x', 80 ],
             [ 'icon-about@3x', 120 ],
             [ 'icon-spotlight@2x', 40 ],
-            [ 'icon-spotlight@3x', 60 ],
-            [ 'icon@2x', 120 ],
-            [ 'icon@3x', 180 ]
+            [ 'icon-spotlight@3x', 60 ]
         ]
     }
 });
@@ -319,6 +50,7 @@ mios.icons.push({
     app_id: 'MobileCal.app',
     psd_id: 'apple_calendar',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'icon-settings@3x', 87 ],
             [ 'icon-spotlight@2x', 40 ],
@@ -333,14 +65,11 @@ mios.icons.push({
     app_id: 'MobileCal.app',
     psd_id: 'apple_calendar_icon',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'icon-about@2x', 80 ],
             [ 'icon-about~ipad', 72 ],
-            [ 'icon-about@2x~ipad', 154 ],
-            [ 'icon@2x', 57 ],
-            [ 'icon@3x', 180 ],
-            [ 'icon@2x~iphone', 114 ],
-            [ 'icon@3x~iphone', 180 ]
+            [ 'icon-about@2x~ipad', 154 ]
         ]
     }
 });
@@ -351,6 +80,7 @@ mios.icons.push({
     app_id: 'Camera.app',
     psd_id: 'apple_camera',
     icons: {
+        iconbundle: true,
         appicon: true,
         custom: [
             [ 'Camera-Guides@2x', 80 ],
@@ -358,10 +88,7 @@ mios.icons.push({
             [ 'Camera-NotificationCenter@2x', 40 ],
             [ 'Camera-NotificationCenter@3x', 60 ],
             [ 'Camera-settings@2x', 58 ],
-            [ 'Camera-settings@3x', 87 ],
-            [ 'Camera@2x~ipad', 152 ],
-            [ 'Camera@2x~iphone', 120 ],
-            [ 'Camera@3x~iphone', 180 ]
+            [ 'Camera-settings@3x', 87 ]
         ]
     }
 });
@@ -372,16 +99,14 @@ mios.icons.push({
     app_id: 'MobileSlideShow.app',
     psd_id: 'apple_camera_roll',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'Photos-Guides@2x', 80 ],
             [ 'Photos-Guides@3x', 120 ],
             [ 'Photos-NotificationCenter@2x', 40 ],
             [ 'Photos-NotificationCenter@3x', 60 ],
             [ 'Photos-settings@2x', 58 ],
-            [ 'Photos-settings@3x', 87 ],
-            [ 'Photos@2x~ipad', 152 ],
-            [ 'Photos@2x~iphone', 120 ],
-            [ 'Photos@3x~iphone', 180 ]
+            [ 'Photos-settings@3x', 87 ]
         ]
     }
 });
@@ -410,6 +135,7 @@ mios.icons.push({
     psd_id: 'apple_clock_alt',
     folder: '/alt',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'ClockIconBackgroundSquare@2x~ipad-iOS7', 152 ],
             [ 'ClockIconBackgroundSquare@2x~iphone-iOS7', 120 ],
@@ -427,6 +153,7 @@ mios.icons.push({
     app_id: 'Compass.app',
     psd_id: 'apple_compass',
     icons: {
+        iconbundle: true,
         appicon: true,
         custom: [
             [ 'icon-about@2x', 80 ],
@@ -434,9 +161,7 @@ mios.icons.push({
             [ 'icon-spotlight@2x', 40 ],
             [ 'icon-spotlight@3x', 60 ],
             [ 'icon-table@2x', 58 ],
-            [ 'icon-table@3x', 87 ],
-            [ 'icon@2x~iphone', 120 ],
-            [ 'icon@3x~iphone', 180 ]
+            [ 'icon-table@3x', 87 ]
         ]
     }
 });
@@ -447,6 +172,7 @@ mios.icons.push({
     app_id: 'Contacts.app',
     psd_id: 'apple_contacts',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -457,6 +183,7 @@ mios.icons.push({
     app_id: 'FaceTime.app',
     psd_id: 'apple_facetime',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -467,6 +194,7 @@ mios.icons.push({
     app_id: 'FindMyFriends.app',
     psd_id: 'apple_find_my_friends',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -477,6 +205,7 @@ mios.icons.push({
     app_id: 'FindMyiPhone.app',
     psd_id: 'apple_find_my_iphone',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -488,6 +217,7 @@ mios.icons.push({
     psd_id: 'apple_find_my_iphone',
     mask: true,
     icons: {
+        iconbundle: true,
         custom: [
             [ 'fmip@2x', 58 ],
             [ 'fmip@3x', 87 ]
@@ -501,6 +231,7 @@ mios.icons.push({
     app_id: 'Game Center.app',
     psd_id: 'apple_game_center',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -511,6 +242,7 @@ mios.icons.push({
     app_id: 'MobileGarageBand.app',
     psd_id: 'apple_garage_band',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -521,6 +253,7 @@ mios.icons.push({
     app_id: 'Health.app',
     psd_id: 'apple_health',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -531,6 +264,7 @@ mios.icons.push({
     app_id: 'iBooks.app',
     psd_id: 'apple_ibooks',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -541,6 +275,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'apple_icloud',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -551,15 +286,8 @@ mios.icons.push({
     app_id: 'iMovie.app',
     psd_id: 'apple_imovie',
     icons: {
-        appicon: true,
-        custom: [
-            [ 'iMovieTheater_Icon', 76 ],
-            [ 'iMovieTheater_Icon@2x', 152 ],
-            [ 'iMovieTheater_Icon@2x~iphone', 120 ],
-            [ 'iMovieTheater_Icon@3x', 228 ],
-            [ 'iMovieTheater_Icon@3x~iphone', 120 ],
-            [ 'iMovieTheater_Icon~iphone', 60 ]
-        ]
+        iconbundle: true,
+        appicon: true
     }
 });
 
@@ -569,30 +297,20 @@ mios.icons.push({
     app_id: 'MobileStore.app',
     psd_id: 'apple_itunes_store',
     icons: {
+        iconbundle: true,
         appicon: true,
         custom: [
             [ 'iTunesStore20', 20 ],
             [ 'iTunesStore29', 29 ],
             [ 'iTunesStore40', 40 ],
             [ 'iTunesStore58', 58 ],
-            [ 'iTunesStore76', 76 ],
             [ 'iTunesStore80', 80 ],
-            [ 'iTunesStore120', 120 ],
-            [ 'iTunesStore152', 152 ],
-            [ 'iTunesStore180', 180 ],
             [ 'iTunesStore-20', 20 ],
             [ 'iTunesStore-29', 29 ],
             [ 'iTunesStore-40', 40 ],
             [ 'iTunesStore-58', 58 ],
-            [ 'iTunesStore-72', 72 ],
-            [ 'iTunesStore-76', 76 ],
             [ 'iTunesStore-80', 80 ],
-            [ 'iTunesStore-87', 87 ],
-            [ 'iTunesStore-120', 120 ],
-            [ 'iTunesStore-144', 144 ],
-            [ 'iTunesStore-152', 152 ],
-            [ 'iTunesStore-167', 167 ],
-            [ 'iTunesStore-180', 180 ]
+            [ 'iTunesStore-87', 87 ]
         ]
     }
 });
@@ -603,6 +321,7 @@ mios.icons.push({
     app_id: 'iTunesU.app',
     psd_id: 'apple_itunes_u',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -613,6 +332,7 @@ mios.icons.push({
     app_id: 'Keynote.app',
     psd_id: 'apple_keynote',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -623,6 +343,7 @@ mios.icons.push({
     app_id: 'MobileMail.app',
     psd_id: 'apple_mail',
     icons: {
+        iconbundle: true,
         appicon: true,
         custom: [
             [ 'Icon-20~ipad', 20 ],
@@ -630,12 +351,8 @@ mios.icons.push({
             [ 'Icon-20@3x', 60 ],
             [ 'Icon-40@2x', 80 ],
             [ 'Icon-40@3x', 120 ],
-            [ 'Icon-76@2x~ipad', 152 ],
-            [ 'Icon-76@3x~ipad', 228 ],
             [ 'Icon-Small@2x', 58 ],
-            [ 'Icon-Small@3x', 87 ],
-            [ 'Icon@2x', 144 ],
-            [ 'Icon@3x', 216 ]
+            [ 'Icon-Small@3x', 87 ]
         ]
     }
 });
@@ -646,16 +363,13 @@ mios.icons.push({
     app_id: 'Maps.app',
     psd_id: 'apple_maps',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'Icon-20', 20 ],
             [ 'Icon-29', 29 ],
             [ 'Icon-40', 40 ],
             [ 'Icon-58', 58 ],
-            [ 'Icon-76', 76 ],
-            [ 'Icon-80', 80 ],
-            [ 'Icon-120', 120 ],
-            [ 'Icon-152', 152 ],
-            [ 'Icon-180', 180 ]
+            [ 'Icon-80', 80 ]
         ]
     }
 });
@@ -666,6 +380,7 @@ mios.icons.push({
     app_id: 'Music.app',
     psd_id: 'apple_music',
     icons: {
+        iconbundle: true,
         appicon: true,
         custom: [
             [ 'App Icon29x29', 29 ],
@@ -673,10 +388,7 @@ mios.icons.push({
             [ 'App Icon29x29@3x', 87 ],
             [ 'App Icon40x40', 40 ],
             [ 'App Icon40x40@2x', 80 ],
-            [ 'App Icon40x40@3x', 120 ],
-            [ 'App Icon60x60', 60 ],
-            [ 'App Icon60x60@2x', 120 ],
-            [ 'App Icon60x60@3x', 180 ]
+            [ 'App Icon40x40@3x', 120 ]
         ]
     }
 });
@@ -687,6 +399,7 @@ mios.icons.push({
     app_id: 'MobileNotes.app',
     psd_id: 'apple_notes',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -697,6 +410,7 @@ mios.icons.push({
     app_id: 'Numbers.app',
     psd_id: 'apple_numbers',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -707,6 +421,7 @@ mios.icons.push({
     app_id: 'Pages.app',
     psd_id: 'apple_pages',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -717,6 +432,7 @@ mios.icons.push({
     app_id: 'Passbook.app',
     psd_id: 'apple_passbook',
     icons: {
+        iconbundle: true,
         icon: true
     }
 });
@@ -727,6 +443,7 @@ mios.icons.push({
     app_id: 'MobilePhone.app',
     psd_id: 'apple_phone',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -737,6 +454,7 @@ mios.icons.push({
     app_id: 'Podcasts.app',
     psd_id: 'apple_podcasts',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -747,6 +465,7 @@ mios.icons.push({
     app_id: 'Preferences.app',
     psd_id: 'apple_preferences',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -757,9 +476,8 @@ mios.icons.push({
     app_id: 'Reminders.app',
     psd_id: 'apple_reminders',
     icons: {
+        iconbundle: true,
         custom: [
-            [ 'icon@2x~iphone', 120 ],
-            [ 'icon@3x~iphone', 180 ],
             [ 'settingsIcon@2x', 58 ],
             [ 'settingsIcon@3x', 87 ],
             [ 'spotlightIcon@2x', 80 ],
@@ -774,6 +492,7 @@ mios.icons.push({
     app_id: 'Remote.app',
     psd_id: 'apple_remote',
     icons: {
+        iconbundle: true,
         appicon: true,
         icon: true,
         custom: [
@@ -781,13 +500,7 @@ mios.icons.push({
             [ 'Remote40', 40 ],
             [ 'Remote57', 57 ],
             [ 'Remote58', 58 ],
-            [ 'Remote60', 60 ],
-            [ 'Remote72', 72 ],
-            [ 'Remote76', 76 ],
-            [ 'Remote80', 80 ],
-            [ 'Remote120', 120 ],
-            [ 'Remote152', 152 ],
-            [ 'Remote180', 180 ]
+            [ 'Remote80', 80 ]
         ]
     }
 });
@@ -798,6 +511,7 @@ mios.icons.push({
     app_id: 'MobileSafari.app',
     psd_id: 'apple_safari',
     icons: {
+        iconbundle: true,
         appicon: true,
         custom: [
             [ 'icon-about~ipad', 40 ],
@@ -808,10 +522,7 @@ mios.icons.push({
             [ 'icon-spotlight@3x', 60 ],
             [ 'icon-table~ipad', 29 ],
             [ 'icon-table@2x', 58 ],
-            [ 'icon-table@3x', 87 ],
-            [ 'icon@2x~ipad', 152 ],
-            [ 'icon@2x~iphone', 120 ],
-            [ 'icon@3x~iphone', 180 ]
+            [ 'icon-table@3x', 87 ]
         ]
     }
 });
@@ -822,6 +533,7 @@ mios.icons.push({
     app_id: 'MobileSMS.app',
     psd_id: 'apple_sms',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -832,6 +544,7 @@ mios.icons.push({
     app_id: 'MobileSMS.app',
     psd_id: 'apple_sms_alt',
     icons: {
+        iconbundle: true,
         folder: '/alt',
         appicon: true
     }
@@ -843,15 +556,14 @@ mios.icons.push({
     app_id: 'Stocks.app',
     psd_id: 'apple_stock',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'icon-about@2x~iphone', 80 ],
             [ 'icon-about@3x~iphone', 120 ],
             [ 'icon-spotlight@2x~iphone', 40 ],
             [ 'icon-spotlight@3x~iphone', 60 ],
             [ 'icon-table@2x', 58 ],
-            [ 'icon-table@3x', 87 ],
-            [ 'icon@2x~iphone', 120 ],
-            [ 'icon@3x~iphone', 180 ]
+            [ 'icon-table@3x', 87 ]
         ]
     }
 });
@@ -862,6 +574,7 @@ mios.icons.push({
     app_id: 'Apple Store.app',
     psd_id: 'apple_store',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -872,6 +585,7 @@ mios.icons.push({
     app_id: 'TestFlight.app',
     psd_id: 'apple_testflight',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -882,6 +596,7 @@ mios.icons.push({
     app_id: 'Tips.app',
     psd_id: 'apple_tips',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -892,19 +607,14 @@ mios.icons.push({
     app_id: false,
     psd_id: 'apple_trailers',
     icons: {
+        iconbundle: true,
         appicon: true,
         custom: [
             [ 'Trailers29', 29 ],
             [ 'Trailers40', 40 ],
             [ 'Trailers57', 57 ],
             [ 'Trailers58', 58 ],
-            [ 'Trailers60', 60 ],
-            [ 'Trailers72', 72 ],
-            [ 'Trailers76', 76 ],
-            [ 'Trailers80', 80 ],
-            [ 'Trailers120', 120 ],
-            [ 'Trailers152', 152 ],
-            [ 'Trailers180', 180 ]
+            [ 'Trailers80', 80 ]
         ]
     }
 });
@@ -915,6 +625,7 @@ mios.icons.push({
     app_id: 'Videos.app',
     psd_id: 'apple_videos',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -925,10 +636,7 @@ mios.icons.push({
     app_id: 'VoiceMemos.app',
     psd_id: 'apple_voice_memos',
     icons: {
-        custom: [
-            [ 'icon@2x', 120 ],
-            [ 'icon@3x', 180 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -938,6 +646,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'apple_watch',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -948,6 +657,7 @@ mios.icons.push({
     app_id: 'Weather.app',
     psd_id: 'apple_weather',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });

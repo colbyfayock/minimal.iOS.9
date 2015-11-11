@@ -16,6 +16,30 @@ var mios = {
 
     },
 
+    mergeSizes: function( iconObj ) {
+
+    	var sizes = [];
+
+    	if ( iconObj.icons.appicon ) sizes.push( this.getSizes('appicon') );
+        if ( iconObj.icons.icon ) sizes.push( this.getSizes('icon') );
+        if ( iconObj.icons.custom ) sizes.push( iconObj.icons.custom );
+
+        if ( iconObj.icons.iconbundle ) {
+
+        	var iconbundleSizes = this.getSizes('iconbundle');
+            
+            for ( var b = 0; b < iconbundleSizes.length; b++ ) {
+                sizes.push([
+                    [ iconObj.bundle_id + iconbundleSizes[b][0], iconbundleSizes[b][1], false, 'iconbundle' ]
+                ]);
+            }
+
+        }
+
+        return sizes;
+
+    },
+
     sortSizes: function( sizes ) {
 
         var sizesObj = [];
@@ -111,14 +135,12 @@ var mios = {
 
         for ( var i = 0, iconsLen = iconList.length; i < iconsLen; i++ ) {
 
-            var iconSizes = [],
-                iconObj = iconList[i],
+            var iconObj = iconList[i],
                 iconDir,
                 iconDoc,
                 bundleFolder,
                 iconBundleFolder,
-                iconFolder,
-                selection;
+                iconFolder;
 
             if ( !iconObj.psd_id ) continue;
 
@@ -144,69 +166,58 @@ var mios = {
             if ( iconObj.icons ) {
 
                 iconFolder = iconObj.icons.folder && iconObj.icons.folder !== '' ? iconObj.icons.folder : false;
-
-                if ( iconObj.icons.iconbundle ) {
-                    iconBundleFolder = new Folder( (new File($.fileName)).parent + "/dist/mios/IconBundles/" + ( iconFolder ? iconFolder : '' ) );
-                } else {
-                    bundleFolder = new Folder( (new File($.fileName)).parent + "/dist/mios/Bundles/" + iconObj.bundle_id + ( iconFolder ? iconFolder : '' ) );
-                }
-                
+				
+				bundleFolder = new Folder( (new File($.fileName)).parent + "/dist/mios/Bundles/" + iconObj.bundle_id + ( iconFolder ? iconFolder : '' ) );
                 if ( !bundleFolder.exists ) bundleFolder.create();
-
-                if ( iconObj.icons.appicon ) iconSizes.push( this.getSizes('appicon') );
-                if ( iconObj.icons.icon ) iconSizes.push( this.getSizes('icon') );
-                if ( iconObj.icons.custom ) iconSizes.push( iconObj.icons.custom );
                 
                 if ( iconObj.icons.iconbundle ) {
-
-                    var iconbundleSizes = this.getSizes('iconbundle');
-                    
-                    for ( var b = 0; b < iconbundleSizes.length; b++ ) {
-                        iconSizes.push([
-                            [ iconObj.bundle_id + iconbundleSizes[b][0], iconbundleSizes[b][1] ]
-                        ]);
-                    }
-
+                	iconBundleFolder = new Folder( (new File($.fileName)).parent + "/dist/mios/IconBundles/" + ( iconFolder ? iconFolder : '' ) );
+                	if ( !iconBundleFolder.exists ) iconBundleFolder.create();
                 }
 
-                iconSizes = this.sortSizes( iconSizes );
+                iconSizes = this.sortSizes( this.mergeSizes( iconObj ) );
 
             }
 
-            if ( iconSizes && iconSizes.length > 0 ) {
+            if ( !iconSizes.length ) {
+            	iconDoc.close( SaveOptions.DONOTSAVECHANGES );
+            	continue;
+            }
 
-                if ( iconObj.mask && iconObj.mask !== '' ) {
+            if ( iconObj.mask ) {
 
-                    iconDoc.artLayers.getByName('Background').isBackgroundLayer = false;
+                iconDoc.artLayers.getByName('Background').isBackgroundLayer = false;
 
-                    this.drawMask( this.getMaskPoints() );
-                    selection = app.activeDocument.selection;
-                    selection.invert();
-                    selection.clear();
-                    selection.deselect();
+                var maskPoints = this.getMaskPoints(),
+                	maskShape = this.drawMask( maskPoints );
 
+                this.clearMask( maskShape );
+
+            }
+
+            for ( var j = 0, iconSizesLen = iconSizes.length; j < iconSizesLen; j++ ) {
+
+                var iconFile,
+                    iconFilePath = '/';
+
+                iconFilePath += "/" + iconSizes[j][0] + ( iconSizes[j][2] && iconSizes[j][2] !== '' ? '' : ".png" );
+                app.activeDocument.resizeImage( iconSizes[j][1], iconSizes[j][1], undefined, ResampleMethod.BICUBICSHARPER);
+                
+                if ( iconSizes[j][3] === 'iconbundle' ) {
+                	iconFile = new File( decodeURI(iconBundleFolder) + iconFilePath );
+                } else {
+                	iconFile = new File( decodeURI(bundleFolder) + iconFilePath );
                 }
 
-                for ( var j = 0, iconSizesLen = iconSizes.length; j < iconSizesLen; j++ ) {
-
-                    var iconFile,
-                        iconFilePath = '';
-                    iconFilePath += "/" + iconSizes[j][0] + ( iconSizes[j][2] && iconSizes[j][2] !== '' ? '' : ".png" );
-                    app.activeDocument.resizeImage( iconSizes[j][1], iconSizes[j][1], undefined, ResampleMethod.BICUBICSHARPER);
-                    iconFile = new File( decodeURI(bundleFolder) + iconFilePath );
-
-                    if ( args.length > 0 && args[0] === 'compressed' ) {
-                        this.save( iconFile, true );
-                    } else {
-                        this.save( iconFile, false );
-                    }
-
+                if ( args.length > 0 && args[0] === 'compressed' ) {
+                    this.save( iconFile, true );
+                } else {
+                    this.save( iconFile, false );
                 }
 
             }
 
             iconDoc.close( SaveOptions.DONOTSAVECHANGES );
-
 
         }
 
@@ -278,8 +289,21 @@ var mios = {
 
         pathItem = doc.pathItems.add("myPath", [ makeSubPath( lineArray ) ]);
 
-        pathItem.makeSelection();
-        pathItem.remove();
+        return pathItem;
+
+    },
+
+    clearMask: function( mask ) {
+
+    	var selection;
+
+        mask.makeSelection();
+        mask.remove();
+
+        selection = app.activeDocument.selection;
+        selection.invert();
+        selection.clear();
+        selection.deselect();
 
     },
 

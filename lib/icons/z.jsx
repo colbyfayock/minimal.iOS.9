@@ -4,6 +4,7 @@ mios.icons.push({
     app_id: 'ZEDGE.app',
     psd_id: 'zedge',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -14,6 +15,7 @@ mios.icons.push({
     app_id: 'Zoosk.app',
     psd_id: 'zoosk',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });

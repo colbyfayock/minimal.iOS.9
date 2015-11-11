@@ -4,6 +4,7 @@ mios.icons.push({
     app_id: 'iflux.app',
     psd_id: 'flux',
     icons: {
+        iconbundle: true,
         icon: true
     }
 });
@@ -14,25 +15,18 @@ mios.icons.push({
     app_id: 'Fab.app',
     psd_id: 'fab',
     icons: {
+        iconbundle: true,
         appicon: true,
         custom: [
-            [ 'icon', 57 ],
             [ 'FabIcon(29px)-1', 29 ],
             [ 'FabIcon(29px)', 29 ],
             [ 'FabIcon(40px)', 40 ],
             [ 'FabIcon(50px)', 50 ],
-            [ 'FabIcon(57px)', 57 ],
             [ 'FabIcon(58px)-1', 58 ],
             [ 'FabIcon(58px)', 58 ],
-            [ 'FabIcon(72px)', 72 ],
-            [ 'FabIcon(76px)', 76 ],
             [ 'FabIcon(80px)-1', 80 ],
             [ 'FabIcon(80px)', 80 ],
-            [ 'FabIcon(100px)', 100 ],
-            [ 'FabIcon(114px)', 114 ],
-            [ 'FabIcon(120px)', 120 ],
-            [ 'FabIcon(144px)', 144 ],
-            [ 'FabIcon(152px)', 152 ]
+            [ 'FabIcon(100px)', 100 ]
         ]
     }
 });
@@ -43,17 +37,10 @@ mios.icons.push({
     app_id: 'Facebook.app',
     psd_id: 'facebook',
     icons: {
+        iconbundle: true,
         custom: [
-            [ 'Icon-Production', 57 ],
-            [ 'Icon-Production@2x', 114 ],
             [ 'Icon-Production-40', 40 ],
             [ 'Icon-Production-40@2x', 80 ],
-            [ 'Icon-Production-72', 72 ],
-            [ 'Icon-Production-72@2x', 144 ],
-            [ 'Icon-Production-76', 76 ],
-            [ 'Icon-Production-76@2x', 152 ],
-            [ 'Icon-Production-120', 120 ],
-            [ 'Icon-Production-180', 180 ],
             [ 'Icon-Production-Small-50', 50 ],
             [ 'Icon-Production-Small-50@2x', 100 ],
             [ 'Icon-Production-Small', 29 ],
@@ -68,13 +55,12 @@ mios.icons.push({
     app_id: 'Groups.app',
     psd_id: 'facebook_groups',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'Icon-29@3x', 87 ],
             [ 'Icon-40@2x-1', 80 ],
             [ 'Icon-40@2x', 80 ],
-            [ 'Icon-Small@2x', 58 ],
-            [ 'Icon@2x', 120 ],
-            [ 'Icon@3x', 180 ]
+            [ 'Icon-Small@2x', 58 ]
         ]
     }
 });
@@ -85,17 +71,10 @@ mios.icons.push({
     app_id: 'Messenger.app',
     psd_id: 'facebook_messenger',
     icons: {
+        iconbundle: true,
         custom: [
-            [ 'Icon-Production', 57 ],
-            [ 'Icon-Production@2x', 114 ],
             [ 'Icon-Production-40', 40 ],
             [ 'Icon-Production-40@2x', 80 ],
-            [ 'Icon-Production-72', 72 ],
-            [ 'Icon-Production-72@2x', 144 ],
-            [ 'Icon-Production-76', 76 ],
-            [ 'Icon-Production-76@2x', 152 ],
-            [ 'Icon-Production-120', 120 ],
-            [ 'Icon-Production-180', 180 ],
             [ 'Icon-Production-Small-50', 50 ],
             [ 'Icon-Production-Small-50@2x', 100 ],
             [ 'Icon-Production-Small', 29 ],
@@ -110,6 +89,7 @@ mios.icons.push({
     app_id: 'Paper.app',
     psd_id: 'facebook_paper',
     icons: {
+        iconbundle: true,
         folder: '/CajmereResources/Icons/blue',
         icon: true,
         custom: [
@@ -125,11 +105,10 @@ mios.icons.push({
     app_id: 'Facetune.app',
     psd_id: 'facetune',
     icons: {
+        iconbundle: true,
         icon: true,
         appicon: true,
         custom: [
-            [ 'Icon-120@2x', 120 ],
-            [ 'Icon-120@3x', 180 ],
             [ 'Icon-Small-58@3x', 87 ]
         ]
     }
@@ -141,6 +120,7 @@ mios.icons.push({
     app_id: 'Fandango.app',
     psd_id: 'fandango',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -151,6 +131,7 @@ mios.icons.push({
     app_id: 'FanDuel.app ',
     psd_id: 'fanduel',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -161,6 +142,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'fantastical',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -171,15 +153,12 @@ mios.icons.push({
     app_id: 'FCC.app',
     psd_id: 'fcc',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'Icon_FCC_29', 29 ],
             [ 'Icon_FCC_40', 40 ],
             [ 'Icon_FCC_58', 58 ],
-            [ 'Icon_FCC_60', 60 ],
-            [ 'Icon_FCC_76', 76 ],
-            [ 'Icon_FCC_80', 80 ],
-            [ 'Icon_FCC_120', 120 ],
-            [ 'Icon_FCC_152', 152 ]
+            [ 'Icon_FCC_80', 80 ]
         ]
     }
 });
@@ -190,6 +169,7 @@ mios.icons.push({
     app_id: 'feedly.app',
     psd_id: 'feedly',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -200,6 +180,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'fifa15',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -210,6 +191,7 @@ mios.icons.push({
     app_id: 'fifa.app',
     psd_id: 'fifa16',
     icons: {
+        iconbundle: true,
         icon: true
     }
 });
@@ -220,13 +202,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'final_fantasy_tactics',
     icons: {
-        custom: [
-            [ 'Icon', 60 ],
-            [ 'Icon@2x', 120 ],
-            [ 'Icon@3x', 180 ],
-            [ 'Icon-72', 72 ],
-            [ 'Icon-72@2x', 144 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -236,6 +212,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'fing',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -246,6 +223,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'first_state_bank',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -256,6 +234,7 @@ mios.icons.push({
     app_id: 'FitbitMobile.app',
     psd_id: 'fitbit',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -266,11 +245,8 @@ mios.icons.push({
     app_id: 'Five Guys.app ',
     psd_id: 'five_guys',
     icons: {
-        icon: true,
-        custom: [
-            [ 'appicon', 60 ],
-            [ 'appicon@2x', 120 ]
-        ]
+        iconbundle: true,
+        icon: true
     }
 });
 
@@ -280,6 +256,7 @@ mios.icons.push({
     app_id: 'FiverrCartoon.app',
     psd_id: 'fiverr_faces',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -290,6 +267,7 @@ mios.icons.push({
     app_id: 'Flap.app',
     psd_id: 'flappy_bird',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -300,24 +278,14 @@ mios.icons.push({
     app_id: false,
     psd_id: 'flex',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'icon-29', 29 ],
             [ 'icon-40', 40 ],
             [ 'icon-50', 50 ],
-            [ 'icon-57', 57 ],
             [ 'icon-58', 58 ],
-            [ 'icon-60', 60 ],
-            [ 'icon-72', 72 ],
-            [ 'icon-76', 76 ],
             [ 'icon-80', 80 ],
-            [ 'icon-100', 100 ],
-            [ 'icon-114', 114 ],
-            [ 'icon-120', 120 ],
-            [ 'icon-144', 144 ],
-            [ 'icon-152', 152 ],
-            [ 'icon-180', 180 ],
-            [ 'Icon', 60 ],
-            [ 'Icon@2x', 120 ]
+            [ 'icon-100', 100 ]
         ]
     }
 });
@@ -328,6 +296,7 @@ mios.icons.push({
     app_id: 'com.yahoo.flickr-4574-distribution.app',
     psd_id: 'flickr',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -338,6 +307,7 @@ mios.icons.push({
     app_id: 'fling.app',
     psd_id: 'fling',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -348,6 +318,7 @@ mios.icons.push({
     app_id: 'Flipagram.app',
     psd_id: 'flipagram',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -358,6 +329,7 @@ mios.icons.push({
     app_id: 'Flipboard.app',
     psd_id: 'flipboard',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -368,6 +340,7 @@ mios.icons.push({
     app_id: 'Flixster.app',
     psd_id: 'flixter',
     icons: {
+        iconbundle: true,
         icon: true,
         custom: [
             [ 'AppIcons29x29',          29 ],
@@ -385,29 +358,7 @@ mios.icons.push({
             [ 'AppIcons40x40@3x~ipad',  120 ],
 
             [ 'AppIcons50x50',          50 ],
-            [ 'AppIcons50x50@2x',       100 ],
-
-            [ 'AppIcons57x57',          57 ],
-            [ 'AppIcons57x57@2x',       114 ],
-
-            [ 'AppIcons60x60',          60 ],
-            [ 'AppIcons60x60@2x',       120 ],
-            [ 'AppIcons60x60@3x',       180 ],
-
-            [ 'AppIcons72x72',          72 ],
-            [ 'AppIcons72x72~ipad',     72 ],
-            [ 'AppIcons72x72@2x',       144 ],
-            [ 'AppIcons72x72@2x~ipad',  144 ],
-
-            [ 'AppIcons76x76',          76 ],
-            [ 'AppIcons76x76~ipad',     76 ],
-            [ 'AppIcons76x76@2x',       152 ],
-            [ 'AppIcons76x76@2x~ipad',  152 ],
-
-            [ 'AppIcons120x120',        120 ],
-
-            [ 'Icon-120', 120 ],
-            [ 'Icon-152', 152 ]
+            [ 'AppIcons50x50@2x',       100 ]
         ]
     }
 });
@@ -418,6 +369,7 @@ mios.icons.push({
     app_id: 'FontBook.app',
     psd_id: 'fontbook',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -428,6 +380,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'forza_football',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -438,6 +391,7 @@ mios.icons.push({
     app_id: 'StatsZone.app',
     psd_id: 'fourfourtwo_stats_zone',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -448,6 +402,7 @@ mios.icons.push({
     app_id: 'FOX NOW.app',
     psd_id: 'fox_now',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -458,17 +413,7 @@ mios.icons.push({
     app_id: 'foxtelgoiPhone.app',
     psd_id: 'foxtel_go',
     icons: {
-        custom: [
-            [ 'AppIcons57x57', 57 ],
-            [ 'AppIcons57x57@2x', 114 ],
-            [ 'AppIcons60x60', 60 ],
-            [ 'AppIcons60x60@2x', 120 ],
-            [ 'AppIcons60x60@3x', 180 ],
-            [ 'AppIcons72x72~ipad', 72 ],
-            [ 'AppIcons72x72@2x~ipad', 144 ],
-            [ 'AppIcons76x76~ipad', 76 ],
-            [ 'AppIcons76x76@2x~ipad', 152 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -478,12 +423,9 @@ mios.icons.push({
     app_id: 'Foxtel Guide.app',
     psd_id: 'foxtel_guide',
     icons: {
+        iconbundle: true,
         appicon: true,
-        icon: true,
-        custom: [
-            [ 'Icon-120', 120 ],
-            [ 'Icon-152', 152 ]
-        ]
+        icon: true
     }
 });
 
@@ -493,16 +435,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'frontpoint',
     icons: {
-        custom: [
-            [ 'Icon@2x', 120 ],
-            [ 'Icon@3x', 180 ],
-            [ 'Icon-72', 72 ],
-            [ 'Icon-76', 76 ],
-            [ 'Icon-120', 120 ],
-            [ 'Icon-144', 144 ],
-            [ 'Icon-152', 152 ],
-            [ 'Icon-180', 180 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -512,6 +445,7 @@ mios.icons.push({
     app_id: 'FunnyOrDie.app',
     psd_id: 'funny_or_die',
     icons: {
+        iconbundle: true,
         icon: true,
         custom: [
             [ 'Icon-Spotlight-40', 40 ],
@@ -526,6 +460,7 @@ mios.icons.push({
     app_id: 'gnn.app',
     psd_id: 'funny_or_die_news_flash',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -536,6 +471,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'fyuse',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });

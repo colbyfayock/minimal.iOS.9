@@ -4,11 +4,8 @@ mios.icons.push({
     app_id: 'eBay.app',
     psd_id: 'ebay',
     icons: {
-        icon: true,
-        custom: [
-            [ 'icon_57x57', 57 ],
-            [ 'icon_114x114', 114 ]
-        ]
+        iconbundle: true,
+        icon: true
     }
 });
 
@@ -18,11 +15,8 @@ mios.icons.push({
     app_id: 'eBay.app',
     psd_id: 'ebay_ipad',
     icons: {
-        icon: true,
-        custom: [
-            [ 'icon_57x57', 57 ],
-            [ 'icon_114x114', 114 ]
-        ]
+        iconbundle: true,
+        icon: true
     }
 });
 
@@ -32,6 +26,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'echofon',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -42,6 +37,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'emoji++',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -52,19 +48,12 @@ mios.icons.push({
     app_id: 'Endomondo.app',
     psd_id: 'endomondo',
     icons: {
+        iconbundle: true,
         custom: [
-            [ 'Icon', 60 ],
-            [ 'Icon@2x', 120 ],
-            [ 'Icon64', 64 ],
-            [ 'Icon64@2x', 128 ],
             [ 'Icon-29', 29 ],
-            [ 'Icon-57', 57 ],
             [ 'Icon-58', 58 ],
             [ 'Icon-80', 80 ],
-            [ 'Icon-87', 87 ],
-            [ 'Icon-114', 114 ],
-            [ 'Icon-120', 120 ],
-            [ 'Icon-180', 180 ]
+            [ 'Icon-87', 87 ]
         ]
     }
 });
@@ -75,6 +64,7 @@ mios.icons.push({
     app_id: 'Essentials.app',
     psd_id: 'epocrates',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -85,6 +75,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'espn_fantasy_football',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -95,6 +86,7 @@ mios.icons.push({
     app_id: 'SportsCenter.app',
     psd_id: 'espn_scorecenter',
     icons: {
+        iconbundle: true,
         appicon: true,
         icon: true
     }
@@ -106,12 +98,8 @@ mios.icons.push({
     app_id: 'WatchESPN.app ',
     psd_id: 'espn_watch',
     icons: {
-        icon: true,
-        custom: [
-            [ 'Icon@2x~ipad', 120 ],
-            [ 'Icon~ipad', 60 ],
-            [ 'Icon~iphone', 60 ]
-        ]
+        iconbundle: true,
+        icon: true
     }
 });
 
@@ -121,6 +109,7 @@ mios.icons.push({
     app_id: 'Etsy.app',
     psd_id: 'etsy',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'BOEAppIcon29x29@2x', 58 ],
             [ 'BOEAppIcon29x29@2x~ipad', 58 ],
@@ -129,11 +118,7 @@ mios.icons.push({
             [ 'BOEAppIcon40x40@2x', 80 ],
             [ 'BOEAppIcon40x40@2x~ipad', 80 ],
             [ 'BOEAppIcon40x40@3x', 120 ],
-            [ 'BOEAppIcon40x40~ipad', 40 ],
-            [ 'BOEAppIcon60x60@2x', 120 ],
-            [ 'BOEAppIcon60x60@3x', 180 ],
-            [ 'BOEAppIcon76x76@2x~ipad', 152 ],
-            [ 'BOEAppIcon76x76~ipad', 76 ]
+            [ 'BOEAppIcon40x40~ipad', 40 ]
         ]
     }
 });
@@ -144,6 +129,7 @@ mios.icons.push({
     app_id: 'Eventbrite.app',
     psd_id: 'eventbrite',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -154,6 +140,7 @@ mios.icons.push({
     app_id: 'Evernote.app',
     psd_id: 'evernote',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -164,6 +151,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'evernote_scannable',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -174,6 +162,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'evernote_skitch',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });

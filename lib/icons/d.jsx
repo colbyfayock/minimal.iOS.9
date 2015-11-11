@@ -4,6 +4,7 @@ mios.icons.push({
     app_id: 'Darkroom.app',
     psd_id: 'darkroom',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -14,6 +15,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'dashlane',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -24,20 +26,13 @@ mios.icons.push({
     app_id: false,
     psd_id: 'datpiff',
     icons: {
+        iconbundle: true,
         custom: [
-            [ 'Icon-Ipad-76', 76 ],
-            [ 'Icon-Ipad-152', 152 ],
-            [ 'Icon-Iphone-120', 120 ],
-            [ 'Icon-Iphone-180', 180 ],
-            [ 'Icon-Large', 72 ],
             [ 'Icon-Small-50', 50 ],
             [ 'Icon-Small-50@2x', 100 ],
             [ 'Icon-Small', 29 ],
             [ 'Icon-Small@2x', 58 ],
-            [ 'Icon-Small@3x', 87 ],
-            [ 'Icon', 57 ],
-            [ 'Icon@2x-Large', 144 ],
-            [ 'Icon@2x', 114 ]
+            [ 'Icon-Small@3x', 87 ]
         ]
     }
 });
@@ -48,6 +43,7 @@ mios.icons.push({
     app_id: 'DayOne.app',
     psd_id: 'day_one',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -58,6 +54,7 @@ mios.icons.push({
     app_id: 'Deezer.app',
     psd_id: 'deezer',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -68,6 +65,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'delivered',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -78,6 +76,7 @@ mios.icons.push({
     app_id: 'Deliveries.app',
     psd_id: 'deliveries',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -88,11 +87,7 @@ mios.icons.push({
     app_id: 'Dictionary.app',
     psd_id: 'dictionary.com',
     icons: {
-        custom: [
-            [ 'AppIconFree60x60', 60 ],
-            [ 'AppIconFree60x60@2x', 120 ],
-            [ 'AppIconFree60x60@3x', 180 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -102,11 +97,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'dictionary.com_premium',
     icons: {
-        custom: [
-            [ 'AppIconPaid60x60', 60 ],
-            [ 'AppIconPaid60x60@2x', 120 ],
-            [ 'AppIconPaid60x60@3x', 180 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -116,6 +107,7 @@ mios.icons.push({
     app_id: 'DiscoverMobile.app',
     psd_id: 'discover_mobile',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -126,11 +118,8 @@ mios.icons.push({
     app_id: 'Discovery.app',
     psd_id: 'discovery_channel',
     icons: {
-        icon: true,
-        custom: [
-            [ 'Icon-120', 120 ],
-            [ 'Icon-152', 152 ]
-        ]
+        iconbundle: true,
+        icon: true
     }
 });
 
@@ -140,6 +129,7 @@ mios.icons.push({
     app_id: 'commute.app',
     psd_id: 'does_not_commute',
     icons: {
+        iconbundle: true,
         icon: true,
         custom: [
             [ 'Icon-38@2x', 76 ]
@@ -153,6 +143,7 @@ mios.icons.push({
     app_id: 'DnB-Norway.app',
     psd_id: 'dnb',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -163,20 +154,13 @@ mios.icons.push({
     app_id: false,
     psd_id: 'documents5',
     icons: {
+        iconbundle: true,
         custom: [
-            [ 'Documents-120', 120 ],
-            [ 'Documents-152', 152 ],
-            [ 'Documents-180', 180 ],
             [ 'Documents-29', 29 ],
             [ 'Documents-29@2x', 58 ],
             [ 'Documents-40', 40 ],
             [ 'Documents-50', 50 ],
             [ 'Documents-50@2x', 100 ],
-            [ 'Documents-57', 57 ],
-            [ 'Documents-57@2x', 114 ],
-            [ 'Documents-72', 72 ],
-            [ 'Documents-72@2x', 144 ],
-            [ 'Documents-76', 76 ],
             [ 'Documents-80', 80 ],
             [ 'Documents-87', 87 ]
         ]
@@ -189,6 +173,7 @@ mios.icons.push({
     app_id: 'Dropbox.app',
     psd_id: 'dropbox',
     icons: {
+        iconbundle: true,
         appicon: true,
         custom: [
             [ 'icon-29', 29 ],
@@ -197,10 +182,6 @@ mios.icons.push({
             [ 'icon-40', 40 ],
             [ 'icon-40@2x', 80 ],
             [ 'icon-40@3x', 120 ],
-            [ 'icon-60@2x', 120 ],
-            [ 'icon-60@3x', 180 ],
-            [ 'icon-76', 76 ],
-            [ 'icon-76@2x', 152 ]
         ]
     }
 });
@@ -211,6 +192,7 @@ mios.icons.push({
     app_id: 'Carousel.app',
     psd_id: 'dropbox_carousel',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -221,6 +203,7 @@ mios.icons.push({
     app_id: 'Dubsmash.app',
     psd_id: 'dubsmash',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -231,6 +214,7 @@ mios.icons.push({
     app_id: 'DuolingoMobile.app',
     psd_id: 'duolingo',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });

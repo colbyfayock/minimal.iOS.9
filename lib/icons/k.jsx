@@ -4,6 +4,7 @@ mios.icons.push({
     app_id: 'KakaoTalk.app',
     psd_id: 'kakaotalk',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -14,17 +15,14 @@ mios.icons.push({
     app_id: 'Keeper.app',
     psd_id: 'keeper',
     icons: {
+        iconbundle: true,
         appicon: true,
         custom: [
             [ 'icon_29', 29 ],
             [ 'icon_40', 40 ],
             [ 'icon_58', 58 ],
-            [ 'icon_76', 76 ],
             [ 'icon_80', 80 ],
-            [ 'icon_87', 87 ],
-            [ 'icon_120', 120 ],
-            [ 'icon_152', 152 ],
-            [ 'icon_180', 180 ]
+            [ 'icon_87', 87 ]
         ]
     }
 });
@@ -35,18 +33,12 @@ mios.icons.push({
     app_id: 'Kik.app',
     psd_id: 'kik',
     icons: {
+        iconbundle: true,
         custom: [
             [ '29x29_Icon', 29 ],
             [ '29x29_Icon@2x', 58 ],
             [ '29x29_Icon@3x', 87 ],
-            [ '57x57_Icon', 57 ],
-            [ '57x57_Icon@2x', 114 ],
-            [ '60x60_Icon', 60 ],
-            [ '60x60_Icon@2x', 120 ],
-            [ '60x60_Icon@3x', 180 ],
-            [ '80x80_Icon', 80 ],
-            [ '120x120_Icon', 120 ],
-            [ '180x180_Icon', 180 ]
+            [ '80x80_Icon', 80 ]
         ]
     }
 });
@@ -57,6 +49,7 @@ mios.icons.push({
     app_id: 'Kindle.app',
     psd_id: 'kindle',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -67,6 +60,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'kodi',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });

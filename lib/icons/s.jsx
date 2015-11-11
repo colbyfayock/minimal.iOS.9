@@ -4,21 +4,14 @@ mios.icons.push({
     app_id: false,
     psd_id: 'score_hero',
     icons: {
+        iconbundle: true,
         custom: [
             [ '29x29', 29 ],
             [ '40x40', 40 ],
             [ '50x50', 50 ],
-            [ '57x57', 57 ],
             [ '58x58', 58 ],
-            [ '72x72', 72 ],
-            [ '76x76', 76 ],
             [ '80x80', 80 ],
-            [ '100x100', 100 ],
-            [ '114x114', 114 ],
-            [ '120x120', 120 ],
-            [ '144x144', 144 ],
-            [ '152x152', 152 ],
-            [ '180x180', 180 ]
+            [ '100x100', 100 ]
         ]
     }
 });
@@ -29,6 +22,7 @@ mios.icons.push({
     app_id: 'Screeny.app',
     psd_id: 'screeny',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -39,6 +33,7 @@ mios.icons.push({
     app_id: 'Setlist.app',
     psd_id: 'setlist',
     icons: {
+        iconbundle: true,
         icon: true
     }
 });
@@ -49,15 +44,7 @@ mios.icons.push({
     app_id: 'Shazam.app',
     psd_id: 'shazam',
     icons: {
-        custom: [
-            [ 'AppIcons_Free57x57', 57 ],
-            [ 'AppIcons_Free57x57@2x', 114 ],
-            [ 'AppIcons_Free60x60@2x', 120 ],
-            [ 'AppIcons_Free72x72@2x~ipad', 144 ],
-            [ 'AppIcons_Free72x72~ipad', 72 ],
-            [ 'AppIcons_Free76x76@2x~ipad', 152 ],
-            [ 'AppIcons_Free76x76~ipad', 76 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -67,15 +54,7 @@ mios.icons.push({
     app_id: 'Shazam.app',
     psd_id: 'shazam',
     icons: {
-        custom: [
-            [ 'AppIcons_Encore57x57', 57 ],
-            [ 'AppIcons_Encore57x57@2x', 114 ],
-            [ 'AppIcons_Encore60x60@2x', 120 ],
-            [ 'AppIcons_Encore72x72@2x~ipad', 144 ],
-            [ 'AppIcons_Encore72x72~ipad', 72 ],
-            [ 'AppIcons_Encore76x76@2x~ipad', 152 ],
-            [ 'AppIcons_Encore76x76~ipad', 76 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -85,6 +64,7 @@ mios.icons.push({
     app_id: 'showtimeanytime.app',
     psd_id: 'showtime_anytime',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -95,6 +75,7 @@ mios.icons.push({
     app_id: 'Simple.app',
     psd_id: 'simple',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -105,13 +86,8 @@ mios.icons.push({
     app_id: 'Sing!.app',
     psd_id: 'sing',
     icons: {
-        appicon: true,
-        custom: [
-            [ 'icon_appicon_100', 30 ],
-            [ 'icon_appicon_100@2x', 60 ],
-            [ 'icon_appicon_100@2x~ipad', 100 ],
-            [ 'icon_appicon_100~ipad', 50 ]
-        ]
+        iconbundle: true,
+        appicon: true
     }
 });
 
@@ -121,6 +97,7 @@ mios.icons.push({
     app_id: 'Skype.app',
     psd_id: 'skype',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -131,6 +108,7 @@ mios.icons.push({
     app_id: 'slack.app',
     psd_id: 'slack',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -141,6 +119,7 @@ mios.icons.push({
     app_id: 'Slacker.app',
     psd_id: 'slacker_radio',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -151,16 +130,13 @@ mios.icons.push({
     app_id: 'GoodMorning.app',
     psd_id: 'sleep_cycle',
     icons: {
+        iconbundle: true,
         appicon: true,
         custom: [
             [ 'icon_29', 29 ],
             [ 'icon_40', 40 ],
-            [ 'icon_57', 57 ],
             [ 'icon_58', 58 ],
-            [ 'icon_60', 60 ],
-            [ 'icon_80', 80 ],
-            [ 'icon_114', 114 ],
-            [ 'icon_120', 120 ]
+            [ 'icon_80', 80 ]
         ]
     }
 });
@@ -171,6 +147,7 @@ mios.icons.push({
     app_id: 'SleepGenius.app',
     psd_id: 'sleepgenius',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -181,6 +158,7 @@ mios.icons.push({
     app_id: 'Slickdeals.app',
     psd_id: 'slick_deals',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -191,6 +169,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'smartnews',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -201,6 +180,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'smartplayer',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -211,14 +191,13 @@ mios.icons.push({
     app_id: 'Snapchat.app',
     psd_id: 'snapchat',
     icons: {
+        iconbundle: true,
         appicon: true,
         icon: true,
         custom: [
             [ 'Icon-66', 77 ],
             [ 'Icon-75', 75 ],
-            [ 'Icon-80', 80 ],
-            [ 'Icon-87', 87 ],
-            [ 'Icon-120', 120 ]
+            [ 'Icon-80', 80 ]
         ]
     }
 });
@@ -229,17 +208,9 @@ mios.icons.push({
     app_id: 'template.app',
     psd_id: 'sniper_shooter',
     icons: {
+        iconbundle: true,
         custom: [
-            [ 'icon', 60 ],
-            [ 'icon16', 16 ],
-            [ 'icon57', 57 ],
-            [ 'icon72', 72 ],
-            [ 'icon75', 75 ],
-            [ 'icon76', 76 ],
-            [ 'icon114', 114 ],
-            [ 'icon120', 120 ],
-            [ 'icon144', 144 ],
-            [ 'icon152', 152 ]
+            [ 'icon16', 16 ]
         ]
     }
 });
@@ -250,6 +221,7 @@ mios.icons.push({
     app_id: 'Sosh.app ',
     psd_id: 'sosh',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -260,6 +232,7 @@ mios.icons.push({
     app_id: 'SoundCloud.app',
     psd_id: 'soundcloud',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -270,6 +243,7 @@ mios.icons.push({
     app_id: 'midomi-free.app',
     psd_id: 'soundhound',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'AppIcon-Freemium29x29@2x', 58 ],
             [ 'AppIcon-Freemium29x29@2x~ipad', 58 ],
@@ -278,11 +252,7 @@ mios.icons.push({
             [ 'AppIcon-Freemium40x40@2x', 80 ],
             [ 'AppIcon-Freemium40x40@2x~ipad', 80 ],
             [ 'AppIcon-Freemium40x40@3x', 120 ],
-            [ 'AppIcon-Freemium40x40~ipad', 40 ],
-            [ 'AppIcon-Freemium60x60@2x', 120 ],
-            [ 'AppIcon-Freemium60x60@3x', 180 ],
-            [ 'AppIcon-Freemium76x76@2x~ipad', 152 ],
-            [ 'AppIcon-Freemium76x76~ipad', 76 ]
+            [ 'AppIcon-Freemium40x40~ipad', 40 ]
         ]
     }
 });
@@ -293,6 +263,7 @@ mios.icons.push({
     app_id: 'midomi.app',
     psd_id: 'soundhound_pro',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'AppIcon-Inf29x29@2x', 58 ],
             [ 'AppIcon-Inf29x29@2x~ipad', 58 ],
@@ -301,11 +272,7 @@ mios.icons.push({
             [ 'AppIcon-Inf40x40@2x', 80 ],
             [ 'AppIcon-Inf40x40@2x~ipad', 80 ],
             [ 'AppIcon-Inf40x40@3x', 120 ],
-            [ 'AppIcon-Inf40x40~ipad', 40 ],
-            [ 'AppIcon-Inf60x60@2x', 120 ],
-            [ 'AppIcon-Inf60x60@3x', 180 ],
-            [ 'AppIcon-Inf76x76@2x~ipad', 152 ],
-            [ 'AppIcon-Inf76x76~ipad', 76 ]
+            [ 'AppIcon-Inf40x40~ipad', 40 ]
         ]
     }
 });
@@ -316,6 +283,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'spinme_alarm_clock',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -326,17 +294,11 @@ mios.icons.push({
     app_id: 'Splitwise.app',
     psd_id: 'splitwise',
     icons: {
+        iconbundle: true,
         custom: [
             [ '29', 29 ],
-            [ '57', 57 ],
             [ '58', 58 ],
-            [ '72', 72 ],
-            [ '80', 80 ],
-            [ '114', 114 ],
-            [ '120', 120 ],
-            [ '144', 144 ],
-            [ 'appicon', 60 ],
-            [ 'appicon@2x', 120 ]
+            [ '80', 80 ]
         ]
     }
 });
@@ -347,6 +309,7 @@ mios.icons.push({
     app_id: 'Spotify.app',
     psd_id: 'spotify',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -357,15 +320,11 @@ mios.icons.push({
     app_id: 'SpringtomizeApp.app',
     psd_id: 'springtomize',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'Icon40x40', 40 ],
             [ 'Icon40x40@2x', 80 ],
-            [ 'Icon40x40@3x', 120 ],
-            [ 'Icon60x60', 60 ],
-            [ 'Icon60x60@2x', 120 ],
-            [ 'Icon60x60@3x', 180 ],
-            [ 'Icon76x76', 76 ],
-            [ 'Icon76x76@2x', 152 ]
+            [ 'Icon40x40@3x', 120 ]
         ]
     }
 });
@@ -376,6 +335,7 @@ mios.icons.push({
     app_id: 'Cash.app',
     psd_id: 'square_cash',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -386,6 +346,7 @@ mios.icons.push({
     app_id: 'Card Trader.app',
     psd_id: 'star_wars_card_trader',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'AppIcon FORCE29x29', 29 ],
             [ 'AppIcon FORCE29x29@2x', 58 ],
@@ -395,15 +356,7 @@ mios.icons.push({
             [ 'AppIcon FORCE40x40@2x~ipad', 80 ],
             [ 'AppIcon FORCE40x40~ipad', 40 ],
             [ 'AppIcon FORCE50x50@2x~ipad', 100 ],
-            [ 'AppIcon FORCE50x50~ipad', 50 ],
-            [ 'AppIcon FORCE57x57', 57 ],
-            [ 'AppIcon FORCE57x57@2x', 114 ],
-            [ 'AppIcon FORCE60x60@2x', 120 ],
-            [ 'AppIcon FORCE60x60@3x', 180 ],
-            [ 'AppIcon FORCE72x72@2x~ipad', 144 ],
-            [ 'AppIcon FORCE72x72~ipad', 72 ],
-            [ 'AppIcon FORCE76x76@2x~ipad', 152 ],
-            [ 'AppIcon FORCE76x76~ipad', 76 ]
+            [ 'AppIcon FORCE50x50~ipad', 50 ]
         ]
     }
 });
@@ -414,6 +367,7 @@ mios.icons.push({
     app_id: 'Starbucks.app',
     psd_id: 'starbucks',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -424,15 +378,8 @@ mios.icons.push({
     app_id: '',
     psd_id: 'starbucks',
     icons: {
-        appicon: true,
-        custom: [
-            [ 'AppIcon 60', 60 ],
-            [ 'AppIcon 60@2x', 120 ],
-            [ 'AppIcon 60@3x', 180 ],
-            [ 'AppIcon 120', 120 ],
-            [ 'AppIcon', 57 ],
-            [ 'AppIcon@2x', 114 ]
-        ]
+        iconbundle: true,
+        appicon: true
     }
 });
 
@@ -442,16 +389,7 @@ mios.icons.push({
     app_id: 'Steam.app',
     psd_id: 'steam',
     icons: {
-        custom: [
-            [ 'Steam57', 57 ],
-            [ 'Steam60', 60 ],
-            [ 'Steam72', 72 ],
-            [ 'Steam76', 76 ],
-            [ 'Steam114', 114 ],
-            [ 'Steam120', 120 ],
-            [ 'Steam144', 144 ],
-            [ 'Steam152', 152 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -461,6 +399,7 @@ mios.icons.push({
     app_id: 'Strava.app',
     psd_id: 'strava_running_cycling',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -471,6 +410,7 @@ mios.icons.push({
     app_id: 'Strong.app ',
     psd_id: 'strong',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'AppIcon-iOS729x29',          29 ],
             [ 'AppIcon-iOS729x29~ipad',     29 ],
@@ -487,26 +427,7 @@ mios.icons.push({
             [ 'AppIcon-iOS740x40@3x~ipad',  120 ],
 
             [ 'AppIcon-iOS750x50',          50 ],
-            [ 'AppIcon-iOS750x50@2x',       100 ],
-
-            [ 'AppIcon-iOS757x57',          57 ],
-            [ 'AppIcon-iOS757x57@2x',       114 ],
-
-            [ 'AppIcon-iOS760x60',          60 ],
-            [ 'AppIcon-iOS760x60@2x',       120 ],
-            [ 'AppIcon-iOS760x60@3x',       180 ],
-
-            [ 'AppIcon-iOS772x72',          72 ],
-            [ 'AppIcon-iOS772x72~ipad',     72 ],
-            [ 'AppIcon-iOS772x72@2x',       144 ],
-            [ 'AppIcon-iOS772x72@2x~ipad',  144 ],
-
-            [ 'AppIcon-iOS776x76',          76 ],
-            [ 'AppIcon-iOS776x76~ipad',     76 ],
-            [ 'AppIcon-iOS776x76@2x',       152 ],
-            [ 'AppIcon-iOS776x76@2x~ipad',  152 ],
-
-            [ 'AppIcon-iOS7120x120',        120 ]
+            [ 'AppIcon-iOS750x50@2x',       100 ]
         ]
     }
 });
@@ -517,6 +438,7 @@ mios.icons.push({
     app_id: 'sunrise-ios.app ',
     psd_id: 'sunrise_calendar',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -527,12 +449,8 @@ mios.icons.push({
     app_id: 'Super.app ',
     psd_id: 'super',
     icons: {
-        appicon: true,
-        custom: [
-            [ 'IconBars', 60 ],
-            [ 'IconBars@2x', 120 ],
-            [ 'IconBars@3x', 180 ]
-        ]
+        iconbundle: true,
+        appicon: true
     }
 });
 
@@ -542,6 +460,7 @@ mios.icons.push({
     app_id: 'Superimpose.app',
     psd_id: 'superimpose',
     icons: {
+        iconbundle: true,
         appicon: true,
         icon: true
     }
@@ -553,6 +472,7 @@ mios.icons.push({
     app_id: 'Swarm.app',
     psd_id: 'swarm',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -563,6 +483,7 @@ mios.icons.push({
     app_id: 'SwiftKeyApp.app',
     psd_id: 'swiftkey',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -573,6 +494,7 @@ mios.icons.push({
     app_id: 'Swipes.app',
     psd_id: 'swipes',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -583,6 +505,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'sworkit_lite',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -593,6 +516,7 @@ mios.icons.push({
     app_id: 'xbmc.app',
     psd_id: 'sybu_for_kodi',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });

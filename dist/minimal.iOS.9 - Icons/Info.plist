@@ -6,6 +6,9 @@
 
 <dict>
 
+<key>IB-MaskIcons</key>
+<true/>
+
 <key>CalendarIconDateStyle</key>
 <string> 
   color: #313133;

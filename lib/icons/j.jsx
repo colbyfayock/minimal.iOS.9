@@ -4,6 +4,7 @@ mios.icons.push({
     app_id: 'Journalized.app ',
     psd_id: 'journalized',
     icons: {
+        iconbundle: true,
         icon: true
     }
 });
@@ -14,6 +15,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'jw_library',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });

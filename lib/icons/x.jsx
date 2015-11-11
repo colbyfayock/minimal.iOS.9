@@ -4,18 +4,7 @@ mios.icons.push({
     app_id: 'XModGame.app',
     psd_id: 'x_mod_games',
     icons: {
-        custom: [
-            [ 'icon_57', 57 ],
-            [ 'icon_72', 72 ],
-            [ 'icon_76', 76 ],
-            [ 'icon_114', 114 ],
-            [ 'icon_120', 120 ],
-            [ 'icon_144', 144 ],
-            [ 'icon_152', 152 ],
-            [ 'Icon-iPhone', 60 ],
-            [ 'Icon-iPhone@2x', 120 ],
-            [ 'Icon-iPhone@3x', 180 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -25,6 +14,7 @@ mios.icons.push({
     app_id: 'XBMC.app',
     psd_id: 'xbmc',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -35,6 +25,7 @@ mios.icons.push({
     app_id: 'Xero Touch.app',
     psd_id: 'xero',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -45,6 +36,7 @@ mios.icons.push({
     app_id: 'XfinityConnect.app',
     psd_id: 'xfinity_connect',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -55,6 +47,7 @@ mios.icons.push({
     app_id: 'XfinityMyAccount.app',
     psd_id: 'xfinity_myaccount',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -65,6 +58,7 @@ mios.icons.push({
     app_id: 'XPlay.app',
     psd_id: 'xfinity_play',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -75,11 +69,9 @@ mios.icons.push({
     app_id: 'XfinityRemote.app',
     psd_id: 'xfinity_remote',
     icons: {
+        iconbundle: true,
         appicon: true,
-        icon: true,
-        custom: [
-            [ 'Icon-120', 120 ]
-        ]
+        icon: true
     }
 });
 
@@ -89,6 +81,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'xfinity_tv',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -99,13 +92,8 @@ mios.icons.push({
     app_id: false,
     psd_id: 'xkit',
     icons: {
+        iconbundle: true,
         custom: [
-            [ 'AppIcon-176x76~ipad', 76 ],
-            [ 'AppIcon-176x76@2x~ipad', 152 ],
-            [ 'AppIcon-172x72~ipad', 72 ],
-            [ 'AppIcon-172x72@2x~ipad', 144 ],
-            [ 'AppIcon-160x60@2x', 120 ],
-            [ 'AppIcon-160x60@3x', 180 ],
             [ 'AppIcon-140x40~ipad', 40 ],
             [ 'AppIcon-140x40@2x~ipad', 80 ],
             [ 'AppIcon-129x29', 29 ],

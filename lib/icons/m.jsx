@@ -4,6 +4,7 @@ mios.icons.push({
     app_id: 'Mailbox.app',
     psd_id: 'mailbox',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -14,6 +15,7 @@ mios.icons.push({
     app_id: 'makeitbig.app',
     psd_id: 'make_it_big',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -24,6 +26,7 @@ mios.icons.push({
     app_id: 'Manga Rock.app',
     psd_id: 'manga_rock',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -34,6 +37,7 @@ mios.icons.push({
     app_id: 'Mashable.app',
     psd_id: 'mashable',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -44,6 +48,7 @@ mios.icons.push({
     app_id: 'Match.com.app ',
     psd_id: 'match',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -54,6 +59,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'maybank',
     icons: {
+        iconbundle: true,
         icon: true,
         custom: [
             [ 'Icon-29', 29 ],
@@ -61,15 +67,7 @@ mios.icons.push({
             [ 'Icon-29@3x', 87 ],
             [ 'Icon-50', 50 ],
             [ 'Icon-50@2x', 100 ],
-            [ 'Icon-50@3x', 150 ],
-            [ 'Icon-57', 57 ],
-            [ 'Icon-57@2x', 114 ],
-            [ 'Icon-57@3x', 171 ],
-            [ 'Icon-72@3x', 216 ],
-            [ 'Icon-76@3x', 228 ],
-            [ 'Icon-120', 120 ],
-            [ 'Icon-120@2x', 240 ],
-            [ 'Icon-120@3x', 360 ]
+            [ 'Icon-50@3x', 150 ]
         ]
     }
 });
@@ -80,6 +78,7 @@ mios.icons.push({
     app_id: 'Memoir.app',
     psd_id: 'memoir',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'AppIcon Production29x29', 29 ],
             [ 'AppIcon Production29x29@2x', 58 ],
@@ -90,21 +89,9 @@ mios.icons.push({
             [ 'AppIcon Production40x40~ipad', 40 ],
             [ 'AppIcon Production50x50@2x~ipad', 100 ],
             [ 'AppIcon Production50x50~ipad', 50 ],
-            [ 'AppIcon Production57x57', 57 ],
-            [ 'AppIcon Production57x57@2x', 114 ],
-            [ 'AppIcon Production60x60@2x', 120 ],
-            [ 'AppIcon Production72x72@2x~ipad', 144 ],
-            [ 'AppIcon Production72x72~ipad', 72 ],
-            [ 'AppIcon Production76x76@2x~ipad', 152 ],
-            [ 'AppIcon Production76x76~ipad', 76 ],
             [ 'icon29', 29 ],
             [ 'icon50', 50 ],
-            [ 'icon57', 57 ],
-            [ 'icon58', 58 ],
-            [ 'icon72', 72 ],
-            [ 'icon114', 114 ],
-            [ 'icon120', 120 ],
-            [ 'icon144', 144 ]
+            [ 'icon58', 58 ]
         ]
     }
 });
@@ -115,6 +102,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'mextures',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -125,6 +113,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'midori',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -135,6 +124,7 @@ mios.icons.push({
     app_id: 'Mint.app',
     psd_id: 'mint',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -145,6 +135,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'mint_bills',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -155,6 +146,7 @@ mios.icons.push({
     app_id: 'AtBat.Full.app',
     psd_id: 'mlb_at_bat',
     icons: {
+        iconbundle: true,
         icon: true
     }
 });
@@ -165,6 +157,7 @@ mios.icons.push({
     app_id: 'Terminal.app',
     psd_id: 'terminal',
     icons: {
+        iconbundle: true,
         icon: true
     }
 });
@@ -175,11 +168,8 @@ mios.icons.push({
     app_id: 'MobyDick.app ',
     psd_id: 'moby_dick_house_of_kabob',
     icons: {
-        icon: true,
-        custom: [
-            [ 'Icon_ios7', 60 ],
-            [ 'Icon_ios7@2x', 120 ]
-        ]
+        iconbundle: true,
+        icon: true
     }
 });
 
@@ -189,21 +179,14 @@ mios.icons.push({
     app_id: 'UDKGame.app',
     psd_id: 'mortal_kombat',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'Icon29', 29 ],
             [ 'Icon29@2x', 58 ],
             [ 'Icon40', 40 ],
             [ 'Icon40@2x', 80 ],
             [ 'Icon50', 100 ],
-            [ 'Icon50@2x', 200 ],
-            [ 'Icon57', 57 ],
-            [ 'Icon57@2x', 114 ],
-            [ 'Icon60', 60 ],
-            [ 'Icon60@2x', 120 ],
-            [ 'Icon72', 72 ],
-            [ 'Icon72@2x', 144 ],
-            [ 'Icon76', 76 ],
-            [ 'Icon76@2x', 152 ]
+            [ 'Icon50@2x', 200 ]
         ]
     }
 });
@@ -214,11 +197,9 @@ mios.icons.push({
     app_id: 'Moves.app',
     psd_id: 'moves',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'moves-icon-ios6-iphone-small', 29 ],
-            [ 'moves-icon-ios6-iphone', 60 ],
-            [ 'moves-icon-ios6-iphone@2x', 120 ],
-            [ 'moves-icon-ios7-iphone@2x', 180 ],
             [ 'moves-icon-ios7-settings@2x', 58 ],
             [ 'moves-icon-ios7-spotlight@2x', 80 ]
         ]
@@ -231,6 +212,7 @@ mios.icons.push({
     app_id: 'FreemakeMusicFinderDownloaderUIIOS.app',
     psd_id: 'music_box',
     icons: {
+        iconbundle: true,
         icon: true
     }
 });
@@ -241,6 +223,7 @@ mios.icons.push({
     app_id: 'AgeroRSA.app',
     psd_id: 'mymazda',
     icons: {
+        iconbundle: true,
         appicon: true,
         icon: true
     }
@@ -252,6 +235,7 @@ mios.icons.push({
     app_id: 'myATTThin.app',
     psd_id: 'myatt',
     icons: {
+        iconbundle: true,
         appicon: true,
         icon: true
     }
@@ -263,6 +247,7 @@ mios.icons.push({
     app_id: 'MyFitnessPal.app',
     psd_id: 'myfitnesspal',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -273,6 +258,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'mymaxis',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -283,12 +269,7 @@ mios.icons.push({
     app_id: 'myPANTONE.app',
     psd_id: 'pantone',
     icons: {
-        custom: [
-            [ 'Icon', 60 ],
-            [ 'myPANTONEicon-57px', 57 ],
-            [ 'myPANTONEicon-114px', 114 ],
-            [ 'myPANTONEicon-120px', 120 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -298,6 +279,7 @@ mios.icons.push({
     app_id: 'MyScriptCalculator.app ',
     psd_id: 'myscript_calculator',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });

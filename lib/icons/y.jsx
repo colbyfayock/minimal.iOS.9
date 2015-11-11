@@ -4,6 +4,7 @@ mios.icons.push({
     app_id: 'YB.app',
     psd_id: 'yb',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -14,6 +15,7 @@ mios.icons.push({
     app_id: 'Yelp.app',
     psd_id: 'yelp',
     icons: {
+        iconbundle: true,
         appicon: true,
         custom: [
             [ 'yelp', 40 ],
@@ -29,6 +31,7 @@ mios.icons.push({
     app_id: 'Yik Yak.app',
     psd_id: 'yik_yak',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -39,6 +42,7 @@ mios.icons.push({
     app_id: 'YNAB.app',
     psd_id: 'ynab',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });

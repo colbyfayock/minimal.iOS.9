@@ -4,15 +4,7 @@ mios.icons.push({
     app_id: 'N_eye.app',
     psd_id: 'n_eye',
     icons: {
-        custom: [
-            [ '57', 57 ],
-            [ '72', 72 ],
-            [ '76', 76 ],
-            [ '114', 114 ],
-            [ '120', 120 ],
-            [ '144', 144 ],
-            [ '152', 152 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -22,12 +14,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'navigon',
     icons: {
-        custom: [
-            [ 'Icon', 57 ],
-            [ 'Icon60', 60 ],
-            [ 'Icon120', 120 ],
-            [ 'Icon180', 180 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -37,11 +24,8 @@ mios.icons.push({
     app_id: 'Navy Federal.app',
     psd_id: 'navy_federal_credit_union ',
     icons: {
-        appicon: true,
-        custom: [
-            [ 'Icon', 60 ],
-            [ 'Icon@2x', 120 ]
-        ]
+        iconbundle: true,
+        appicon: true
     }
 });
 
@@ -51,18 +35,9 @@ mios.icons.push({
     app_id: 'GameTimeUniversal.app',
     psd_id: 'nba',
     icons: {
+        iconbundle: true,
         appicon: true,
-        icon: true,
-        custom: [
-            [ 'icon_57', 57 ],
-            [ 'icon_60', 60 ],
-            [ 'icon_72', 72 ],
-            [ 'icon_76', 76 ],
-            [ 'icon_114', 114 ],
-            [ 'icon_120', 120 ],
-            [ 'icon_144', 144 ],
-            [ 'icon_152', 152 ]
-        ]
+        icon: true
     }
 });
 
@@ -72,6 +47,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'nest',
     icons: {
+        iconbundle: true,
         custom: [
             [ 'icon_29', 29 ],
             [ 'icon_29@2x', 58 ],
@@ -79,13 +55,7 @@ mios.icons.push({
             [ 'icon_40', 40 ],
             [ 'icon_40@2x', 80 ],
             [ 'icon_50', 50 ],
-            [ 'icon_50@2x', 100 ],
-            [ 'icon_57', 57 ],
-            [ 'icon_57@2x', 114 ],
-            [ 'icon_60@2x', 120 ],
-            [ 'icon_60@3x', 180 ],
-            [ 'icon_76', 76 ],
-            [ 'icon_76@2x', 152 ]
+            [ 'icon_50@2x', 100 ]
         ]
     }
 });
@@ -96,6 +66,7 @@ mios.icons.push({
     app_id: 'Netflix.app',
     psd_id: 'netflix',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -106,6 +77,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'network_utility',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -116,6 +88,7 @@ mios.icons.push({
     app_id: 'Words2.app',
     psd_id: 'new_words_with_friends',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -126,16 +99,7 @@ mios.icons.push({
     app_id: 'TCA.app',
     psd_id: 'nexus_student_ministry',
     icons: {
-        custom: [
-            [ 'Icon', 60 ],
-            [ 'Icon@2x', 120 ],
-            [ 'Icon-60x60@2x', 120 ],
-            [ 'Icon-60x60@3x', 180 ],
-            [ 'Icon-72x72', 72 ],
-            [ 'Icon-72x72@2x', 144 ],
-            [ 'Icon-76x76', 76 ],
-            [ 'Icon-76x76@2x', 152 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -145,6 +109,7 @@ mios.icons.push({
     app_id: 'NFL Fantasy.app',
     psd_id: 'nfl_fantasy',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -155,6 +120,7 @@ mios.icons.push({
     app_id: 'NFL Mobile USA Prod.app',
     psd_id: 'nfl_mobile',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -165,11 +131,8 @@ mios.icons.push({
     app_id: 'NHL1415.app',
     psd_id: 'nhl',
     icons: {
-        appicon: true,
-        custom: [
-            [ 'Icon', 60 ],
-            [ 'Icon@2x', 120 ]
-        ]
+        iconbundle: true,
+        appicon: true
     }
 });
 
@@ -179,6 +142,7 @@ mios.icons.push({
     app_id: 'NikePlus.app',
     psd_id: 'nike_plus',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -189,12 +153,7 @@ mios.icons.push({
     app_id: 'Notability.app',
     psd_id: 'notability',
     icons: {
-        appicon: true,
-        custom: [
-            [ 'notability-icon', 72 ],
-            [ 'notability-icon@2x', 144 ],
-            [ 'notability-icon@2x~iphone', 120 ],
-            [ 'notability-icon~iphone', 60 ]
-        ]
+        iconbundle: true,
+        appicon: true
     }
 });

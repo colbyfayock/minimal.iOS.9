@@ -4,16 +4,8 @@ mios.icons.push({
     app_id: 'LastPass.app',
     psd_id: 'lastpass',
     icons: {
-        appicon: true,
-        custom: [
-            [ 'lastpassicon', 60 ],
-            [ 'lastpassicon@2x', 120 ],
-            [ 'lastpassicon72', 72 ],
-            [ 'lastpassicon72@2x', 144 ],
-            [ 'lastpassicon76', 76 ],
-            [ 'lastpassicon120', 120 ],
-            [ 'lastpassicon152', 152 ]
-        ]
+        iconbundle: true,
+        appicon: true
     }
 });
 
@@ -23,11 +15,10 @@ mios.icons.push({
     app_id: 'Launch.app',
     psd_id: 'launch_center_pro',
     icons: {
+        iconbundle: true,
         appicon: true,
         custom: [
-            [ 'AppIcon58', 58 ],
-            [ 'AppIcon80', 80 ],
-            [ 'AppIcon120', 120 ]
+            [ 'AppIcon58', 58 ]
         ]
     }
 });
@@ -38,6 +29,7 @@ mios.icons.push({
     app_id: 'LINE.app',
     psd_id: 'line',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -48,10 +40,8 @@ mios.icons.push({
     app_id: 'LinkedIn.app',
     psd_id: 'linkedin',
     icons: {
-        appicon: true,
-        custom: [
-            [ 'LinkedIn-57x57', 57 ]
-        ]
+        iconbundle: true,
+        appicon: true
     }
 });
 
@@ -61,11 +51,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'listonic',
     icons: {
-        custom: [
-            [ 'ico_02', 144 ],
-            [ 'ico_03', 57 ],
-            [ 'ico_08', 120 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -75,6 +61,7 @@ mios.icons.push({
     app_id: 'LogMeIn.app ',
     psd_id: 'logmein',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -85,13 +72,13 @@ mios.icons.push({
     app_id: 'Lose It!.app',
     psd_id: 'lose_it',
     icons: {
+        iconbundle: true,
         appicon: true,
         icon: true,
         custom: [
             [ 'Icon-29', 29 ],
             [ 'Icon-29@2x', 58 ],
-            [ 'Icon-50', 50 ],
-            [ 'Icon-152', 152 ]
+            [ 'Icon-50', 50 ]
         ]
     }
 });
@@ -102,6 +89,7 @@ mios.icons.push({
     app_id: 'lyft.app',
     psd_id: 'lyft',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
