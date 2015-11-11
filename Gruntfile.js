@@ -45,7 +45,19 @@ module.exports = function(grunt) {
 
                 options: {
                     app: 'Adobe Photoshop CC 2015',
-                    args: [ "test" ]
+                    args: [ "test", ]
+                },
+
+                src: [
+                    './mios.jsx'
+                ]
+            },
+
+            rebuild_links: {
+
+                options: {
+                    app: 'Adobe Photoshop CC 2015',
+                    args: [ "test", "save" ]
                 },
 
                 src: [
@@ -180,6 +192,11 @@ module.exports = function(grunt) {
     grunt.registerTask('test', [
         'concat:build',
         'extendscript:test_files'
+    ]);
+
+    grunt.registerTask('rebuildlinks', [
+        'concat:build',
+        'extendscript:rebuild_links'
     ]);
 
     grunt.registerTask('sync', [

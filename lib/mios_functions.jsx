@@ -18,15 +18,15 @@ var mios = {
 
     mergeSizes: function( iconObj ) {
 
-    	var sizes = [];
+        var sizes = [];
 
-    	if ( iconObj.icons.appicon ) sizes.push( this.getSizes('appicon') );
+        if ( iconObj.icons.appicon ) sizes.push( this.getSizes('appicon') );
         if ( iconObj.icons.icon ) sizes.push( this.getSizes('icon') );
         if ( iconObj.icons.custom ) sizes.push( iconObj.icons.custom );
 
         if ( iconObj.icons.iconbundle ) {
 
-        	var iconbundleSizes = this.getSizes('iconbundle');
+            var iconbundleSizes = this.getSizes('iconbundle');
             
             for ( var b = 0; b < iconbundleSizes.length; b++ ) {
                 sizes.push([
@@ -145,12 +145,29 @@ var mios = {
             if ( !iconObj.psd_id ) continue;
 
             if ( iconDir = dirIcons.getFiles(iconObj.psd_id + '.psd')[0] ) {
+                
                 iconDoc = open( iconDir );
+                
+                if ( args.length > 0 && args[0] === 'test' ) {
+                
+                    if ( args[1] === 'save' ) {
+                        iconDoc.close( SaveOptions.SAVECHANGES );
+                    } else {
+                        iconDoc.close( SaveOptions.DONOTSAVECHANGES );
+                    }
+
+                    continue;
+                
+                }
+
                 iconDoc.flatten();
+
             } else {
+                
                 if ( !this.errors ) this.errors = [];
                 this.errors.push( iconObj.name + ' - PSD does not exist\r');
                 continue;
+
             }
 
             if ( !this.docValidate( iconDoc, iconObj.name ) ) {
@@ -158,21 +175,16 @@ var mios = {
                 continue;
             }
 
-            if ( args.length > 0 && args[0] === 'test' ) {
-                iconDoc.close( SaveOptions.DONOTSAVECHANGES );
-                continue;
-            }
-
             if ( iconObj.icons ) {
 
                 iconFolder = iconObj.icons.folder && iconObj.icons.folder !== '' ? iconObj.icons.folder : false;
-				
-				bundleFolder = new Folder( (new File($.fileName)).parent + "/dist/mios/Bundles/" + iconObj.bundle_id + ( iconFolder ? iconFolder : '' ) );
+                
+                bundleFolder = new Folder( (new File($.fileName)).parent + "/dist/mios/Bundles/" + iconObj.bundle_id + ( iconFolder ? iconFolder : '' ) );
                 if ( !bundleFolder.exists ) bundleFolder.create();
                 
                 if ( iconObj.icons.iconbundle ) {
-                	iconBundleFolder = new Folder( (new File($.fileName)).parent + "/dist/mios/IconBundles/" + ( iconFolder ? iconFolder : '' ) );
-                	if ( !iconBundleFolder.exists ) iconBundleFolder.create();
+                    iconBundleFolder = new Folder( (new File($.fileName)).parent + "/dist/mios/IconBundles/" + ( iconFolder ? iconFolder : '' ) );
+                    if ( !iconBundleFolder.exists ) iconBundleFolder.create();
                 }
 
                 iconSizes = this.sortSizes( this.mergeSizes( iconObj ) );
@@ -180,8 +192,8 @@ var mios = {
             }
 
             if ( !iconSizes.length ) {
-            	iconDoc.close( SaveOptions.DONOTSAVECHANGES );
-            	continue;
+                iconDoc.close( SaveOptions.DONOTSAVECHANGES );
+                continue;
             }
 
             if ( iconObj.mask ) {
@@ -189,7 +201,7 @@ var mios = {
                 iconDoc.artLayers.getByName('Background').isBackgroundLayer = false;
 
                 var maskPoints = this.getMaskPoints(),
-                	maskShape = this.drawMask( maskPoints );
+                    maskShape = this.drawMask( maskPoints );
 
                 this.clearMask( maskShape );
 
@@ -204,9 +216,9 @@ var mios = {
                 app.activeDocument.resizeImage( iconSizes[j][1], iconSizes[j][1], undefined, ResampleMethod.BICUBICSHARPER);
                 
                 if ( iconSizes[j][3] === 'iconbundle' ) {
-                	iconFile = new File( decodeURI(iconBundleFolder) + iconFilePath );
+                    iconFile = new File( decodeURI(iconBundleFolder) + iconFilePath );
                 } else {
-                	iconFile = new File( decodeURI(bundleFolder) + iconFilePath );
+                    iconFile = new File( decodeURI(bundleFolder) + iconFilePath );
                 }
 
                 if ( args.length > 0 && args[0] === 'compressed' ) {
@@ -295,7 +307,7 @@ var mios = {
 
     clearMask: function( mask ) {
 
-    	var selection;
+        var selection;
 
         mask.makeSelection();
         mask.remove();
