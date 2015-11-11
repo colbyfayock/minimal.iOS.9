@@ -13,7 +13,7 @@ Free flat and minimal iOS 9 theme for Winterboard with over 500 icons! (full ico
 #### Contributing
 The contribution process should be pretty simple using Github. Simply adding the icon details is a huge help in getting around to making icons get in here quicker.
 
-See [CONTRIBUTING.md](https://github.com/colbyfayock/minimal.iOS.9/wiki/Contributing-to-minimal.iOS.9)
+See [Contributing to minimal.iOS.9](https://github.com/colbyfayock/minimal.iOS.9/wiki/Contributing-to-minimal.iOS.9)
 
 #### Requesting Icons
 
