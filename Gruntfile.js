@@ -17,7 +17,7 @@ module.exports = function(grunt) {
 
                     './lib/mios_functions.jsx',
                     './lib/mios_icons.jsx',
-                    './lib/icons/*',
+                    // './lib/icons/*',
                     './lib/mios_sizes.jsx',
                     './lib/mios_init.jsx'
 
@@ -83,7 +83,7 @@ module.exports = function(grunt) {
 
             dev: {
                 options: {
-                    src: "dist/mios",
+                    src: "dist/mios-iconbundles",
                     dest: "/Library/Themes",
                     host: "root@192.168.1.182" // iPhone
                     // host: "root@192.168.1.84" // iPad

@@ -116,6 +116,7 @@ var mios = {
                 iconDir,
                 iconDoc,
                 bundleFolder,
+                iconBundleFolder,
                 iconFolder,
                 selection;
 
@@ -144,12 +145,29 @@ var mios = {
 
                 iconFolder = iconObj.icons.folder && iconObj.icons.folder !== '' ? iconObj.icons.folder : false;
 
-                bundleFolder = new Folder( (new File($.fileName)).parent + "/dist/mios/Bundles/" + iconObj.bundle_id + ( iconFolder ? iconFolder : '' ) );
+                if ( iconObj.icons.iconbundle ) {
+                    iconBundleFolder = new Folder( (new File($.fileName)).parent + "/dist/mios/IconBundles/" + ( iconFolder ? iconFolder : '' ) );
+                } else {
+                    bundleFolder = new Folder( (new File($.fileName)).parent + "/dist/mios/Bundles/" + iconObj.bundle_id + ( iconFolder ? iconFolder : '' ) );
+                }
+                
                 if ( !bundleFolder.exists ) bundleFolder.create();
 
                 if ( iconObj.icons.appicon ) iconSizes.push( this.getSizes('appicon') );
                 if ( iconObj.icons.icon ) iconSizes.push( this.getSizes('icon') );
                 if ( iconObj.icons.custom ) iconSizes.push( iconObj.icons.custom );
+                
+                if ( iconObj.icons.iconbundle ) {
+
+                    var iconbundleSizes = this.getSizes('iconbundle');
+                    
+                    for ( var b = 0; b < iconbundleSizes.length; b++ ) {
+                        iconSizes.push([
+                            [ iconObj.bundle_id + iconbundleSizes[b][0], iconbundleSizes[b][1] ]
+                        ]);
+                    }
+
+                }
 
                 iconSizes = this.sortSizes( iconSizes );
 
@@ -173,7 +191,6 @@ var mios = {
 
                     var iconFile,
                         iconFilePath = '';
-
                     iconFilePath += "/" + iconSizes[j][0] + ( iconSizes[j][2] && iconSizes[j][2] !== '' ? '' : ".png" );
                     app.activeDocument.resizeImage( iconSizes[j][1], iconSizes[j][1], undefined, ResampleMethod.BICUBICSHARPER);
                     iconFile = new File( decodeURI(bundleFolder) + iconFilePath );

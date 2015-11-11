@@ -1,5 +1,13 @@
 mios.sizes = {
 
+	iconbundle: [
+
+		[ '@2x', 120 ],
+		[ '@3x', 180 ],
+		[ '@3x~ipad', 228 ]
+
+	],
+
     appicon: [
 
         [ 'AppIcon29x29',          29 ],
