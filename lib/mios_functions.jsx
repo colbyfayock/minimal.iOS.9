@@ -221,7 +221,7 @@ var mios = {
                     iconFile = new File( decodeURI(bundleFolder) + iconFilePath );
                 }
 
-                if ( ( args.length > 0 && args[0] === 'compressed' ) && iconSizes[j][3] !== 'iconbundle' ) {
+                if ( ( args.length > 0 && args[0] === 'compressed' ) ) {
                     this.save( iconFile, true );
                 } else {
                     this.save( iconFile, false );
