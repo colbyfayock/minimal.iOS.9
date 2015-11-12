@@ -45,7 +45,7 @@ module.exports = function(grunt) {
 
                 options: {
                     app: 'Adobe Photoshop CC 2015',
-                    args: [ "test", ]
+                    args: [ "test" ]
                 },
 
                 src: [

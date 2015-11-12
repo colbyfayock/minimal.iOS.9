@@ -150,7 +150,7 @@ var mios = {
                 
                 if ( args.length > 0 && args[0] === 'test' ) {
                 
-                    if ( args[1] === 'save' ) {
+                    if ( args.length > 1 && args[1] === 'save' ) {
                         iconDoc.close( SaveOptions.SAVECHANGES );
                     } else {
                         iconDoc.close( SaveOptions.DONOTSAVECHANGES );
@@ -183,7 +183,7 @@ var mios = {
                 if ( !bundleFolder.exists ) bundleFolder.create();
                 
                 if ( iconObj.icons.iconbundle ) {
-                    iconBundleFolder = new Folder( (new File($.fileName)).parent + "/dist/mios/IconBundles/" + ( iconFolder ? iconFolder : '' ) );
+                    iconBundleFolder = new Folder( (new File($.fileName)).parent + "/dist/mios/IconBundles" + ( iconFolder === 'alt' || iconFolder === '/alt' ? '/alt' : '' ) );
                     if ( !iconBundleFolder.exists ) iconBundleFolder.create();
                 }
 
@@ -221,11 +221,13 @@ var mios = {
                     iconFile = new File( decodeURI(bundleFolder) + iconFilePath );
                 }
 
-                if ( args.length > 0 && args[0] === 'compressed' ) {
+                if ( ( args.length > 0 && args[0] === 'compressed' ) && iconSizes[j][3] !== 'iconbundle' ) {
                     this.save( iconFile, true );
                 } else {
                     this.save( iconFile, false );
                 }
+
+                app.activeDocument.activeHistoryState = app.activeDocument.historyStates[app.activeDocument.historyStates.length - 2];
 
             }
 

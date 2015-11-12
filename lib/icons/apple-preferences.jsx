@@ -1,4 +1,20 @@
 mios.icons.push({
+    name: 'Apple Preferences - AirDrop',
+    bundle_id: 'com.apple.Sharing',
+    app_id: false,
+    psd_id: 'apple_airdrop',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'AirDrop-Settings~ipad', 29 ],
+            [ 'AirDrop-Settings@2x', 58 ],
+            [ 'AirDrop-Settings@2x~ipad', 58 ],
+            [ 'AirDrop-Settings@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
     name: 'Apple Preferences - Airplane Mode',
     bundle_id: 'com.apple.preferences-ui-framework',
     app_id: false,
@@ -26,6 +42,38 @@ mios.icons.push({
             [ 'AppStore@2x', 58 ],
             [ 'AppStore@2x~ipad', 58 ],
             [ 'AppStore@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Battery',
+    bundle_id: 'com.apple.preferences-ui-framework',
+    app_id: false,
+    psd_id: 'apple_battery',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'BatteryUsage~ipad', 29 ],
+            [ 'BatteryUsage@2x', 58 ],
+            [ 'BatteryUsage@2x~ipad', 58 ],
+            [ 'BatteryUsage@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Battery',
+    bundle_id: 'com.apple.DuetHeuristics',
+    app_id: false,
+    psd_id: 'apple_battery',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'BatteryIcon~ipad', 58 ],
+            [ 'BatteryIcon@2x', 116 ],
+            [ 'BatteryIcon@2x~ipad', 116 ],
+            [ 'BatteryIcon@3x', 174 ]
         ]
     }
 });
@@ -62,6 +110,22 @@ mios.icons.push({
             [ 'Calendar@2x', 58 ],
             [ 'Calendar@2x~ipad', 58 ],
             [ 'Calendar@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Calendar',
+    bundle_id: 'com.apple.AppleAccountUI',
+    app_id: false,
+    psd_id: 'apple_calendar',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'CalendarIcon~ipad', 38 ],
+            [ 'CalendarIcon@2x', 76 ],
+            [ 'CalendarIcon@2x~ipad', 76 ],
+            [ 'CalendarIcon@3x', 114 ]
         ]
     }
 });
@@ -272,6 +336,43 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Apple Preferences - Family',
+    bundle_id: 'com.apple.FamilyNotification',
+    app_id: false,
+    psd_id: 'apple_family',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'family_20~ipad', 20 ],
+            [ 'family_20@2x', 40 ],
+            [ 'family_20@2x~ipad', 40 ],
+            [ 'family_20@3x', 80 ],
+            [ 'family_29~ipad', 29 ],
+            [ 'family_29@2x', 58 ],
+            [ 'family_29@2x~ipad', 58 ],
+            [ 'family_29@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Find My Friends',
+    bundle_id: 'com.apple.AppleAccountUI',
+    app_id: false,
+    psd_id: 'apple_find_my_friends',
+    icons: {
+        iconbundle: true,
+        appicon: true,
+        custom: [
+            [ 'FMFIcon~ipad', 38 ],
+            [ 'FMFIcon@2x', 76 ],
+            [ 'FMFIcon@2x~ipad', 76 ],
+            [ 'FMFIcon@3x', 114 ]
+        ]
+    }
+});
+
+mios.icons.push({
     name: 'Apple Preferences - Find My iPhone',
     bundle_id: 'com.apple.preferences-ui-framework',
     app_id: false,
@@ -283,6 +384,23 @@ mios.icons.push({
             [ 'FindMyiPhone@2x', 58 ],
             [ 'FindMyiPhone@2x~ipad', 58 ],
             [ 'FindMyiPhone@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Find My iPhone',
+    bundle_id: 'com.apple.AppleAccountUI',
+    app_id: false,
+    psd_id: 'apple_find_my_iphone',
+    icons: {
+        iconbundle: true,
+        appicon: true,
+        custom: [
+            [ 'FMIPIcon~ipad', 38 ],
+            [ 'FMIPIcon@2x', 76 ],
+            [ 'FMIPIcon@2x~ipad', 76 ],
+            [ 'FMIPIcon@3x', 114 ]
         ]
     }
 });
@@ -379,6 +497,26 @@ mios.icons.push({
             [ 'iCloud@2x', 58 ],
             [ 'iCloud@2x~ipad', 58 ],
             [ 'iCloud@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - iCloud',
+    bundle_id: 'com.apple.AccountNotification',
+    app_id: false,
+    psd_id: 'apple_icloud',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'com.apple.account.AppleAccount-Settings~ipad', 29 ],
+            [ 'com.apple.account.AppleAccount-Settings@2x', 58 ],
+            [ 'com.apple.account.AppleAccount-Settings@2x~ipad', 58 ],
+            [ 'com.apple.account.AppleAccount-Settings3x', 87 ],
+            [ 'com.apple.account.AppleAccount-NC~ipad', 29 ],
+            [ 'com.apple.account.AppleAccount-NC@2x', 58 ],
+            [ 'com.apple.account.AppleAccount-NC@2x~ipad', 58 ],
+            [ 'com.apple.account.AppleAccount-NC3x', 87 ]
         ]
     }
 });
@@ -512,6 +650,22 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Apple Preferences - Music',
+    bundle_id: 'com.apple.AppleAccountUI',
+    app_id: false,
+    psd_id: 'apple_music',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'MusicIcon~ipad', 38 ],
+            [ 'MusicIcon@2x', 76 ],
+            [ 'MusicIcon@2x~ipad', 76 ],
+            [ 'MusicIcon@3x', 114 ]
+        ]
+    }
+});
+
+mios.icons.push({
     name: 'Apple Preferences - Newsstand',
     bundle_id: 'com.apple.preferences-ui-framework',
     app_id: false,
@@ -580,6 +734,26 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Apple Preferences - PassKit Core',
+    bundle_id: 'com.apple.PassKitCore',
+    app_id: false,
+    psd_id: 'apple_passbook',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Icon~ipad', 76 ],
+            [ 'Icon@2x', 120 ],
+            [ 'Icon@2x~ipad', 152 ],
+            [ 'Icon@3x', 180 ],
+            [ 'Icon-Small~ipad', 29 ],
+            [ 'Icon-Small@2x', 58 ],
+            [ 'Icon-Small@2x~ipad', 58 ],
+            [ 'Icon-Small@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
     name: 'Apple Preferences - Personal Hotspot',
     bundle_id: 'com.apple.preferences-ui-framework',
     app_id: false,
@@ -623,6 +797,38 @@ mios.icons.push({
             [ 'Photos@2x', 58 ],
             [ 'Photos@2x~ipad', 58 ],
             [ 'Photos@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Photos',
+    bundle_id: 'com.apple.AppleAccountUI',
+    app_id: false,
+    psd_id: 'apple_camera_roll',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'PhotosIcon~ipad', 38 ],
+            [ 'PhotosIcon@2x', 76 ],
+            [ 'PhotosIcon@2x~ipad', 76 ],
+            [ 'PhotosIcon@3x', 114 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Photos',
+    bundle_id: 'com.apple.AppleAccountUI',
+    app_id: false,
+    psd_id: 'apple_camera_roll',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'PhotosIcon~ipad', 38 ],
+            [ 'PhotosIcon@2x', 76 ],
+            [ 'PhotosIcon@2x~ipad', 76 ],
+            [ 'PhotosIcon@3x', 114 ]
         ]
     }
 });
@@ -687,6 +893,22 @@ mios.icons.push({
             [ 'Sounds@2x', 58 ],
             [ 'Sounds@2x~ipad', 58 ],
             [ 'Sounds@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Stores',
+    bundle_id: 'com.apple.AppleAccountUI',
+    app_id: false,
+    psd_id: 'apple_stores',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'StoreIcon~ipad', 38 ],
+            [ 'StoreIcon@2x', 76 ],
+            [ 'StoreIcon@2x~ipad', 76 ],
+            [ 'StoreIcon@3x', 114 ]
         ]
     }
 });
@@ -820,6 +1042,22 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Apple Preferences - Weather',
+    bundle_id: 'com.apple.weather-framework',
+    app_id: false,
+    psd_id: 'apple_weather',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'IconMasked-table~ipad', 29 ],
+            [ 'IconMasked-table@2x', 58 ],
+            [ 'IconMasked-table@2x~ipad', 58 ],
+            [ 'IconMasked-table@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
     name: 'Apple Preferences - Weibo',
     bundle_id: 'com.apple.preferences-ui-framework',
     app_id: false,
@@ -847,6 +1085,26 @@ mios.icons.push({
             [ 'WiFi@2x', 58 ],
             [ 'WiFi@2x~ipad', 58 ],
             [ 'WiFi@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Winterboard',
+    bundle_id: 'com.saurik.winterboard.settings',
+    app_id: false,
+    psd_id: 'winterboard',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'icon~ipad', 29 ],
+            [ 'icon@2x', 58 ],
+            [ 'icon@2x~ipad', 58 ],
+            [ 'icon@3x', 87 ],
+            [ 'icon7~ipad', 29 ],
+            [ 'icon7@2x', 58 ],
+            [ 'icon7@2x~ipad', 58 ],
+            [ 'icon7@3x', 87 ]
         ]
     }
 });

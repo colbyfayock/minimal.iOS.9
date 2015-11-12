@@ -189,7 +189,28 @@ mios.icons.push({
     app_id: 'appinfo.app',
     psd_id: 'app_info',
     icons: {
-        iconbundle: true
+        iconbundle: true,
+        custom: [
+            [ 'Icon', 60 ],
+            [ 'Icon@2x', 120 ],
+            [ 'Icon@3x', 180 ],
+            [ 'IconHD', 512 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'AppInfo',
+    bundle_id: 'com.mileskabal.appinfo',
+    app_id: 'appinfo.app',
+    psd_id: 'app_info',
+    icons: {
+        custom: [
+            [ 'Icon', 60 ],
+            [ 'Icon@2x', 120 ],
+            [ 'Icon@3x', 180 ],
+            [ 'IconHD', 512 ]
+        ]
     }
 });
 

@@ -133,8 +133,8 @@ mios.icons.push({
     bundle_id: 'com.apple.springboard',
     app_id: false,
     psd_id: 'apple_clock_alt',
-    folder: '/alt',
     icons: {
+    	folder: '/alt',
         iconbundle: true,
         custom: [
             [ 'ClockIconBackgroundSquare@2x~ipad-iOS7', 152 ],
