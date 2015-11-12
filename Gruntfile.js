@@ -69,14 +69,6 @@ module.exports = function(grunt) {
 
         makedeb: {
 
-            alpha: {
-                options: {
-                    name: 'minimal.iOS.9',
-                    control: 'control-alpha',
-                    postfix: 'alpha'
-                }
-            },
-
             dev: {
                 options: {
                     name: 'minimal.iOS.9',
@@ -201,10 +193,6 @@ module.exports = function(grunt) {
 
     grunt.registerTask('sync', [
         'rsync:dev'
-    ]);
-
-    grunt.registerTask('alpha', [
-        'makedeb:alpha'
     ]);
 
     grunt.registerTask('dev', [

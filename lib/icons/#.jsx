@@ -4,6 +4,7 @@ mios.icons.push({
     app_id: '1Password.app',
     psd_id: '1password',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -14,13 +15,9 @@ mios.icons.push({
     app_id: '2048.app',
     psd_id: '2048',
     icons: {
+        iconbundle: true,
         appicon: true,
-        icon: true,
-        custom: [
-            [ 'Icon_76', 76 ],
-            [ 'Icon_120', 120 ],
-            [ 'Icon_152', 152 ]
-        ]
+        icon: true
     }
 });
 
@@ -30,6 +27,7 @@ mios.icons.push({
     app_id: 'FiveSeconds.app',
     psd_id: '5sGif',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -40,6 +38,7 @@ mios.icons.push({
     app_id: false,
     psd_id: '7eleven',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
@@ -50,6 +49,7 @@ mios.icons.push({
     app_id: 'pool.app',
     psd_id: '8BallPool',
     icons: {
+        iconbundle: true,
         appicon: true,
         icon: true
     }
@@ -61,6 +61,7 @@ mios.icons.push({
     app_id: '9GAG.app',
     psd_id: '9Gag',
     icons: {
+        iconbundle: true,
         appicon: true
     }
 });
