@@ -17,11 +17,12 @@ See [Contributing to minimal.iOS.9](https://github.com/colbyfayock/minimal.iOS.9
 
 #### Requesting Icons
 
+Sometimes it's tough to get through lists and lists of requests. To make it easier, please try to limit each new request issue to 5-6 icons. This will help me get through smaller chunks a little at a time. Of course, if you have more than 5-6, go ahead and submit multiple issues.
+
 Please provide the following via [Github Issues](issues):
  - Bundle ID (ex: com.google.chrome.ios)
- - Icon file names (ex: Icon-29)
- - Icon file sizes (ex: Icon-29 => 29px)
- - [Need help?](https://www.reddit.com/r/iOSthemes/comments/1uv8iz/ive_made_an_image_tutorial_on_how_to_make_a_theme/)
+ - Attach or provide a link to the current icon design
+  - Ex: In the source of https://itunes.apple.com/us/app/chrome-web-browser-by-google/id535886823?mt=8 you can find http://a1.mzstatic.com/us/r30/Purple3/v4/89/04/74/890474a1-6a23-0f2d-8697-0697a14a6faa/icon175x175.png
 
 #### Development Releases
 Get newer icons and bug fixes quicker with source [http://cydia.fay.io](http://cydia.fay.io) on Cydia!
