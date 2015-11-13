@@ -138,6 +138,9 @@ module.exports = function(grunt) {
 
         exec( "cp " + data.control + " Package/DEBIAN/control" );
 
+        grunt.log.write( '\nLooking for ' + pkg_name + '...\n');
+        grunt.log.write( '--\n');
+
         exec( "find ./dist -maxdepth 1 -type d -name \"" + pkg_name + "*\"", { encoding: 'utf8' } ).split(/\n/).forEach(function(dir) {
             if ( dir.length > 0 ) {
                 var new_dir = dir.split('/').pop();
@@ -148,26 +151,59 @@ module.exports = function(grunt) {
             }
         });
 
+        exec( "find . -name \".DS_Store\" -exec rm -rf {} \\;" );
+        
+        grunt.log.write( '\nTrying to package deb...\n');
+        grunt.log.write( '--\n');
+
         if ( exec( "dpkg-deb --version", { encoding: 'utf8' } ).indexOf('See dpkg-deb --licence for details') === -1 ) {
             exec( "rm -rf Package" );
-            grunt.log.error(['Oops, you need dpkg-deb to run this task']);
+            grunt.log.error( ['Oops, you need dpkg-deb to run this task'] );
             grunt.fail.fatal( 'Exiting...');
 
             return false;
         }
 
         try {
-            exec( "find . -name \".DS_Store\" -exec rm -rf {} \\;" );
-            exec( "dpkg-deb -b Package" );
+            exec( "dpkg-deb -b Package " + pkg_file  + ".deb" );
         } catch(e) {
+            grunt.log.error( ['dpkg-dev failed!'] );
             grunt.fail.fatal( 'Exiting...');
             return false;
         }
 
-        exec( "mv Package.deb " + pkg_file  + ".deb" );
+        grunt.log.write( 'deb successfully packaged!\n');
 
+        grunt.log.write( '\nLooking for backgrounds...\n');
+        grunt.log.write( '--\n');
+
+        exec( "find ./dist -maxdepth 1 -type f -name \"bg-*\"", { encoding: 'utf8' } ).split(/\n/).forEach(function(file) {
+            if ( file.length > 0 ) {
+                grunt.log.write( 'Found: ' + file + '\n');
+                grunt.log.write( 'Adding: ' + file + '\n');
+                exec( "cp " + file.replace(/ /g,"\\ ") + " Package/Library/Themes" );
+            }
+        });
+
+        exec( "mv Package/Library/Themes " + pkg_file );
         exec( "rm -rf Package" );
 
+        grunt.log.write( '\nTrying to zip theme...\n');
+        grunt.log.write( '--\n');
+
+        try {
+            exec( "zip -r " + pkg_file + ".zip " + pkg_file );
+        } catch(e) {
+            grunt.log.error( ['zip failed!'] );
+            grunt.fail.fatal( 'Exiting...');
+            return false;
+        }
+
+        grunt.log.write( 'Theme successfuly zipped!\n');
+
+        exec( "rm -rf " + pkg_file );
+
+        grunt.log.write( '\nw00t! Success!!\n');
 
     });
 
