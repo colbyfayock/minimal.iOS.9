@@ -54,7 +54,10 @@ mios.icons.push({
         custom: [
             [ 'icon-settings@3x', 87 ],
             [ 'icon-spotlight@2x', 40 ],
-            [ 'icon-spotlight~ipad', 20 ]
+            [ 'icon-spotlight~ipad', 20 ],
+            [ 'icon-about@2x', 80 ],
+            [ 'icon-about~ipad', 72 ],
+            [ 'icon-about@2x~ipad', 154 ]
         ]
     }
 });
@@ -65,12 +68,7 @@ mios.icons.push({
     app_id: 'MobileCal.app',
     psd_id: 'apple_calendar_icon',
     icons: {
-        iconbundle: true,
-        custom: [
-            [ 'icon-about@2x', 80 ],
-            [ 'icon-about~ipad', 72 ],
-            [ 'icon-about@2x~ipad', 154 ]
-        ]
+        iconbundle: true
     }
 });
 
@@ -390,6 +388,17 @@ mios.icons.push({
             [ 'App Icon40x40@2x', 80 ],
             [ 'App Icon40x40@3x', 120 ]
         ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple News',
+    bundle_id: 'com.apple.news',
+    app_id: 'News.app',
+    psd_id: 'apple_news',
+    icons: {
+        iconbundle: true,
+        appicon: true
     }
 });
 

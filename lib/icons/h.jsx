@@ -10,6 +10,16 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Harmony Remote',
+    bundle_id: 'com.logitech.harmonyremote',
+    app_id: false,
+    psd_id: 'harmony',
+    icons: {
+        iconbundle: true
+    }
+});
+
+mios.icons.push({
     name: 'HBO Go',
     bundle_id: 'com.hbo.hbogo',
     app_id: 'TVTruck.app',

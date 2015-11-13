@@ -28,6 +28,16 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Kickstarter',
+    bundle_id: 'com.kickstarter.kickstarter',
+    app_id: false,
+    psd_id: 'kickstarter',
+    icons: {
+        iconbundle: true
+    }
+});
+
+mios.icons.push({
     name: 'kik',
     bundle_id: 'com.kik.chat',
     app_id: 'Kik.app',

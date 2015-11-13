@@ -211,6 +211,22 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Apple Preferences - Conference Registration Settings',
+    bundle_id: 'com.apple.conference.settings.registration',
+    app_id: false,
+    psd_id: 'apple_phone',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'icon~ipad', 29 ],
+            [ 'icon@2x', 58 ],
+            [ 'icon@2x~ipad', 58 ],
+            [ 'icon@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
     name: 'Apple Preferences - Contacts',
     bundle_id: 'com.apple.preferences-ui-framework',
     app_id: false,
@@ -229,6 +245,22 @@ mios.icons.push({
 mios.icons.push({
     name: 'Apple Preferences - Control Center',
     bundle_id: 'com.apple.preferences-ui-framework',
+    app_id: false,
+    psd_id: 'apple_control_center',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'ControlCenter~ipad', 29 ],
+            [ 'ControlCenter@2x', 58 ],
+            [ 'ControlCenter@2x~ipad', 58 ],
+            [ 'ControlCenter@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Control Center',
+    bundle_id: 'com.apple.settings.BatteryUsageUI',
     app_id: false,
     psd_id: 'apple_control_center',
     mask: true,
@@ -313,8 +345,14 @@ mios.icons.push({
     psd_id: 'facebook',
     icons: {
         custom: [
+            [ 'FacebookIcon~ipad', 60 ],
             [ 'FacebookIcon@2x', 120 ],
+            [ 'FacebookIcon@2x~ipad', 120 ],
             [ 'FacebookIcon@3x', 180 ],
+            [ 'FacebookSettings@2x~ipad', 29 ],
+            [ 'FacebookSettings@2x@2x', 58 ],
+            [ 'FacebookSettings@2x@2x~ipad', 58 ],
+            [ 'FacebookSettings@2x@3x', 87 ]
         ]
     }
 });
@@ -417,6 +455,25 @@ mios.icons.push({
             [ 'FlickrSettings@2x', 58 ],
             [ 'FlickrSettings@2x~ipad', 58 ],
             [ 'FlickrSettings@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Flickr',
+    bundle_id: 'com.apple.FlickrSettings',
+    app_id: false,
+    psd_id: 'flickr',
+    icons: {
+        custom: [
+            [ 'FlickrIcon~ipad', 60 ],
+            [ 'FlickrIcon@2x', 120 ],
+            [ 'FlickrIcon@2x~ipad', 120 ],
+            [ 'FlickrIcon@3x', 180 ],
+            [ 'icon@2x~ipad', 29 ],
+            [ 'icon@2x@2x', 58 ],
+            [ 'icon@2x@2x~ipad', 58 ],
+            [ 'icon@2x@3x', 87 ]
         ]
     }
 });
@@ -718,6 +775,22 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Apple Preferences - Notification Center',
+    bundle_id: 'com.apple.settings.BatteryUsageUI',
+    app_id: false,
+    psd_id: 'apple_notifications',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'NotificationCenter~ipad', 29 ],
+            [ 'NotificationCenter@2x', 58 ],
+            [ 'NotificationCenter@2x~ipad', 58 ],
+            [ 'NotificationCenter@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
     name: 'Apple Preferences - Passcode',
     bundle_id: 'com.apple.preferences-ui-framework',
     app_id: false,
@@ -770,6 +843,22 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Apple Preferences - Hotspot',
+    bundle_id: 'com.apple.settings.BatteryUsageUI',
+    app_id: false,
+    psd_id: 'apple_personal_hotspot',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Hotspot~ipad', 29 ],
+            [ 'Hotspot@2x', 58 ],
+            [ 'Hotspot@2x~ipad', 58 ],
+            [ 'Hotspot@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
     name: 'Apple Preferences - Phone',
     bundle_id: 'com.apple.preferences-ui-framework',
     app_id: false,
@@ -781,6 +870,21 @@ mios.icons.push({
             [ 'Phone@2x', 58 ],
             [ 'Phone@2x~ipad', 58 ],
             [ 'Phone@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Phone',
+    bundle_id: 'com.apple.mobilephone.settings',
+    app_id: false,
+    psd_id: 'apple_phone',
+    icons: {
+        custom: [
+            [ 'icon~ipad', 29 ],
+            [ 'icon@2x', 58 ],
+            [ 'icon@2x~ipad', 58 ],
+            [ 'icon@3x', 87 ]
         ]
     }
 });
@@ -834,6 +938,22 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Apple Preferences - Poor Cell Condition',
+    bundle_id: 'com.apple.settings.BatteryUsageUI',
+    app_id: false,
+    psd_id: 'apple_cellular',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'PoorCellCondition~ipad', 29 ],
+            [ 'PoorCellCondition@2x', 58 ],
+            [ 'PoorCellCondition@2x~ipad', 58 ],
+            [ 'PoorCellCondition@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
     name: 'Apple Preferences - Privacy',
     bundle_id: 'com.apple.preferences-ui-framework',
     app_id: false,
@@ -861,6 +981,22 @@ mios.icons.push({
             [ 'Reminders@2x', 58 ],
             [ 'Reminders@2x~ipad', 58 ],
             [ 'Reminders@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Restore',
+    bundle_id: 'com.apple.settings.BatteryUsageUI',
+    app_id: false,
+    psd_id: 'apple_backup',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Restore~ipad', 29 ],
+            [ 'Restore@2x', 58 ],
+            [ 'Restore@2x~ipad', 58 ],
+            [ 'Restore@3x', 87 ]
         ]
     }
 });
@@ -946,6 +1082,21 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Apple Preferences - Twitter',
+    bundle_id: 'com.apple.TwitterSettings',
+    app_id: false,
+    psd_id: 'twitter',
+    icons: {
+        custom: [
+            [ 'TwitterIcon~ipad', 60 ],
+            [ 'TwitterIcon@2x', 120 ],
+            [ 'TwitterIcon@2x~ipad', 120 ],
+            [ 'TwitterIcon@3x', 180 ]
+        ]
+    }
+});
+
+mios.icons.push({
     name: 'Apple Preferences - Victoria',
     bundle_id: 'com.apple.preferences-ui-framework',
     app_id: false,
@@ -989,6 +1140,21 @@ mios.icons.push({
             [ 'VimeoSettings@2x', 58 ],
             [ 'VimeoSettings@2x~ipad', 58 ],
             [ 'VimeoSettings@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Vimeo',
+    bundle_id: 'com.apple.VimeoSettings',
+    app_id: false,
+    psd_id: 'vimeo',
+    icons: {
+        custom: [
+            [ 'VimeoIcon~ipad', 60 ],
+            [ 'VimeoIcon@2x', 120 ],
+            [ 'VimeoIcon@2x~ipad', 120 ],
+            [ 'VimeoIcon@3x', 180 ]
         ]
     }
 });
@@ -1069,6 +1235,25 @@ mios.icons.push({
             [ 'Weibo@2x', 58 ],
             [ 'Weibo@2x~ipad', 58 ],
             [ 'Weibo@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Weibo',
+    bundle_id: 'com.apple.WeiboSettings',
+    app_id: false,
+    psd_id: 'weibo',
+    icons: {
+        custom: [
+            [ 'WeiboIcon~ipad', 29 ],
+            [ 'WeiboIcon@2x', 58 ],
+            [ 'WeiboIcon@2x~ipad', 58 ],
+            [ 'WeiboIcon@3x', 87 ],
+            [ 'WeiboDownload~ipad', 60 ],
+            [ 'WeiboDownload@2x', 120 ],
+            [ 'WeiboDownload@2x~ipad', 120 ],
+            [ 'WeiboDownload@3x', 180 ]
         ]
     }
 });

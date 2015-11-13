@@ -294,6 +294,16 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Crystal',
+    bundle_id: 'co.MurphyApps.Crystal',
+    app_id: false,
+    psd_id: 'crystal',
+    icons: {
+        iconbundle: true
+    }
+});
+
+mios.icons.push({
     name: 'Curb',
     bundle_id: 'com.ridecharge.TaxiMagic',
     app_id: 'Curb.app',

@@ -93,6 +93,16 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'ThinkGeek',
+    bundle_id: 'com.thinkgeek.ios-app',
+    app_id: false,
+    psd_id: 'thinkgeek',
+    icons: {
+        iconbundle: true
+    }
+});
+
+mios.icons.push({
     name: 'Tiny Scan',
     bundle_id: 'com.btgs.scannerhdlite',
     app_id: 'VectorScanner',

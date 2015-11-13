@@ -84,6 +84,27 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Facebook Moments',
+    bundle_id: 'com.facebook.Moments',
+    app_id: false,
+    psd_id: 'facebook_moments',
+    icons: {
+        iconbundle: true
+    }
+});
+
+mios.icons.push({
+    name: 'Facebook Notify',
+    bundle_id: 'com.facebook.Knowtify',
+    app_id: false,
+    psd_id: 'facebook_notify',
+    icons: {
+        iconbundle: true
+    }
+});
+
+
+mios.icons.push({
     name: 'Facebook Paper',
     bundle_id: 'com.facebook.Paper',
     app_id: 'Paper.app',
